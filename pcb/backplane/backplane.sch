@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:backplane-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -436,4 +437,532 @@ F 3 "~" H 950 2650 50  0001 C CNN
 	1    950  2650
 	1    0    0    -1  
 $EndComp
+$Comp
+L backplane_Library:B4B-XH-A JST1
+U 1 1 5C3164AB
+P 4450 800
+F 0 "JST1" H 4678 790 50  0000 L CNN
+F 1 "B4B-XH-A" H 4678 699 50  0000 L CNN
+F 2 "backplane:B4B-XH-A" H 4450 800 50  0001 C CNN
+F 3 "" H 4450 800 50  0001 C CNN
+	1    4450 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L backplane_Library:B4B-XH-A JST3
+U 1 1 5C316566
+P 4400 2150
+F 0 "JST3" H 4628 2140 50  0000 L CNN
+F 1 "B4B-XH-A" H 4628 2049 50  0000 L CNN
+F 2 "backplane:B4B-XH-A" H 4400 2150 50  0001 C CNN
+F 3 "" H 4400 2150 50  0001 C CNN
+	1    4400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L backplane_Library:B4B-XH-A JST2
+U 1 1 5C3165D6
+P 5550 800
+F 0 "JST2" H 5778 790 50  0000 L CNN
+F 1 "B4B-XH-A" H 5778 699 50  0000 L CNN
+F 2 "backplane:B4B-XH-A" H 5550 800 50  0001 C CNN
+F 3 "" H 5550 800 50  0001 C CNN
+	1    5550 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L backplane_Library:B4B-XH-A JST4
+U 1 1 5C31675A
+P 5600 2150
+F 0 "JST4" H 5828 2140 50  0000 L CNN
+F 1 "B4B-XH-A" H 5828 2049 50  0000 L CNN
+F 2 "backplane:B4B-XH-A" H 5600 2150 50  0001 C CNN
+F 3 "" H 5600 2150 50  0001 C CNN
+	1    5600 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 1150 3    50   Input ~ 0
+Motor1EncoderPin1
+Text GLabel 4400 1150 3    50   Input ~ 0
+Motor1EncoderPin2
+Text GLabel 4500 1150 3    50   Input ~ 0
+Motor1EncoderPin3
+Text GLabel 4600 1150 3    50   Input ~ 0
+Motor1EncoderPin4
+Text GLabel 5400 1150 3    50   Input ~ 0
+Motor2EncoderPin1
+Text GLabel 5500 1150 3    50   Input ~ 0
+Motor2EncoderPin2
+Text GLabel 5600 1150 3    50   Input ~ 0
+Motor2EncoderPin3
+Text GLabel 5700 1150 3    50   Input ~ 0
+Motor2EncoderPin4
+Text GLabel 4250 2450 3    50   Input ~ 0
+Motor3EncoderPin1
+Text GLabel 4350 2450 3    50   Input ~ 0
+Motor3EncoderPin2
+Text GLabel 4450 2450 3    50   Input ~ 0
+Motor3EncoderPin3
+Text GLabel 4550 2450 3    50   Input ~ 0
+Motor3EncoderPin4
+Text GLabel 5450 2450 3    50   Input ~ 0
+Motor4EncoderPin1
+Text GLabel 5550 2450 3    50   Input ~ 0
+Motor4EncoderPin2
+Text GLabel 5650 2450 3    50   Input ~ 0
+Motor4EncoderPin3
+Text GLabel 5750 2450 3    50   Input ~ 0
+Motor4EncoderPin4
+Wire Wire Line
+	4300 1150 4300 1000
+Wire Wire Line
+	4400 1150 4400 1000
+Wire Wire Line
+	4500 1150 4500 1000
+Wire Wire Line
+	4600 1150 4600 1000
+Wire Wire Line
+	5400 1150 5400 1000
+Wire Wire Line
+	5500 1150 5500 1000
+Wire Wire Line
+	5600 1150 5600 1000
+Wire Wire Line
+	5700 1150 5700 1000
+Wire Wire Line
+	4250 2450 4250 2350
+Wire Wire Line
+	4350 2450 4350 2350
+Wire Wire Line
+	4450 2450 4450 2350
+Wire Wire Line
+	4550 2450 4550 2350
+Wire Wire Line
+	5450 2450 5450 2350
+Wire Wire Line
+	5550 2450 5550 2350
+Wire Wire Line
+	5650 2450 5650 2350
+Wire Wire Line
+	5750 2450 5750 2350
+Text GLabel 600  4150 3    50   Input ~ 0
+Motor1EncoderPin1
+Text GLabel 700  4150 3    50   Input ~ 0
+Motor1EncoderPin2
+Text GLabel 800  4150 3    50   Input ~ 0
+Motor1EncoderPin3
+Text GLabel 900  4150 3    50   Input ~ 0
+Motor1EncoderPin4
+Wire Wire Line
+	600  4150 600  4000
+Wire Wire Line
+	700  4150 700  4000
+Wire Wire Line
+	800  4150 800  4000
+Wire Wire Line
+	900  4150 900  4000
+Text GLabel 1000 4150 3    50   Input ~ 0
+Motor1EncoderPin5
+Text GLabel 1100 4150 3    50   Input ~ 0
+Motor1EncoderPin6
+$Comp
+L backplane_Library:PRPC006SAAN-RC Motor1Header1
+U 1 1 5C3361AF
+P 850 3900
+F 0 "Motor1Header1" H 1178 3965 50  0000 L CNN
+F 1 "PRPC006SAAN-RC" H 1178 3874 50  0000 L CNN
+F 2 "backplane:PRPC006SAAN-RC" H 850 3900 50  0001 C CNN
+F 3 "" H 850 3900 50  0001 C CNN
+	1    850  3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 4150 1000 4000
+Wire Wire Line
+	1100 4150 1100 4000
+Text GLabel 2050 4150 3    50   Input ~ 0
+Motor2EncoderPin1
+Text GLabel 2150 4150 3    50   Input ~ 0
+Motor2EncoderPin2
+Text GLabel 2250 4150 3    50   Input ~ 0
+Motor2EncoderPin3
+Text GLabel 2350 4150 3    50   Input ~ 0
+Motor2EncoderPin4
+Wire Wire Line
+	2050 4150 2050 4000
+Wire Wire Line
+	2150 4150 2150 4000
+Wire Wire Line
+	2250 4150 2250 4000
+Wire Wire Line
+	2350 4150 2350 4000
+Text GLabel 2450 4150 3    50   Input ~ 0
+Motor2EncoderPin5
+Text GLabel 2550 4150 3    50   Input ~ 0
+Motor2EncoderPin6
+$Comp
+L backplane_Library:PRPC006SAAN-RC Motor2Header1
+U 1 1 5C337A7E
+P 2300 3900
+F 0 "Motor2Header1" H 2628 3965 50  0000 L CNN
+F 1 "PRPC006SAAN-RC" H 2628 3874 50  0000 L CNN
+F 2 "backplane:PRPC006SAAN-RC" H 2300 3900 50  0001 C CNN
+F 3 "" H 2300 3900 50  0001 C CNN
+	1    2300 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4150 2450 4000
+Wire Wire Line
+	2550 4150 2550 4000
+Text GLabel 3450 4150 3    50   Input ~ 0
+Motor3EncoderPin1
+Text GLabel 3550 4150 3    50   Input ~ 0
+Motor3EncoderPin2
+Text GLabel 3650 4150 3    50   Input ~ 0
+Motor3EncoderPin3
+Text GLabel 3750 4150 3    50   Input ~ 0
+Motor3EncoderPin4
+Wire Wire Line
+	3450 4150 3450 4000
+Wire Wire Line
+	3550 4150 3550 4000
+Wire Wire Line
+	3650 4150 3650 4000
+Wire Wire Line
+	3750 4150 3750 4000
+Text GLabel 3850 4150 3    50   Input ~ 0
+Motor3EncoderPin5
+Text GLabel 3950 4150 3    50   Input ~ 0
+Motor3EncoderPin6
+$Comp
+L backplane_Library:PRPC006SAAN-RC Motor3Header1
+U 1 1 5C3399C4
+P 3700 3900
+F 0 "Motor3Header1" H 4028 3965 50  0000 L CNN
+F 1 "PRPC006SAAN-RC" H 4028 3874 50  0000 L CNN
+F 2 "backplane:PRPC006SAAN-RC" H 3700 3900 50  0001 C CNN
+F 3 "" H 3700 3900 50  0001 C CNN
+	1    3700 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4150 3850 4000
+Wire Wire Line
+	3950 4150 3950 4000
+Text GLabel 5000 4150 3    50   Input ~ 0
+Motor4EncoderPin1
+Text GLabel 5100 4150 3    50   Input ~ 0
+Motor4EncoderPin2
+Text GLabel 5200 4150 3    50   Input ~ 0
+Motor4EncoderPin3
+Text GLabel 5300 4150 3    50   Input ~ 0
+Motor4EncoderPin4
+Wire Wire Line
+	5000 4150 5000 4000
+Wire Wire Line
+	5100 4150 5100 4000
+Wire Wire Line
+	5200 4150 5200 4000
+Wire Wire Line
+	5300 4150 5300 4000
+Text GLabel 5400 4150 3    50   Input ~ 0
+Motor4EncoderPin5
+Text GLabel 5500 4150 3    50   Input ~ 0
+Motor4EncoderPin6
+$Comp
+L backplane_Library:PRPC006SAAN-RC Motor4Header1
+U 1 1 5C345E9E
+P 5250 3900
+F 0 "Motor4Header1" H 5578 3965 50  0000 L CNN
+F 1 "PRPC006SAAN-RC" H 5578 3874 50  0000 L CNN
+F 2 "backplane:PRPC006SAAN-RC" H 5250 3900 50  0001 C CNN
+F 3 "" H 5250 3900 50  0001 C CNN
+	1    5250 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4150 5400 4000
+Wire Wire Line
+	5500 4150 5500 4000
+Text GLabel 600  5400 3    50   Input ~ 0
+Motor1EncoderPin1
+Text GLabel 700  5400 3    50   Input ~ 0
+Motor1EncoderPin2
+Text GLabel 800  5400 3    50   Input ~ 0
+Motor1EncoderPin3
+Text GLabel 900  5400 3    50   Input ~ 0
+Motor1EncoderPin4
+Wire Wire Line
+	600  5400 600  5250
+Wire Wire Line
+	700  5400 700  5250
+Wire Wire Line
+	800  5400 800  5250
+Wire Wire Line
+	900  5400 900  5250
+Text GLabel 1000 5400 3    50   Input ~ 0
+Motor1EncoderPin5
+Text GLabel 1100 5400 3    50   Input ~ 0
+Motor1EncoderPin6
+$Comp
+L backplane_Library:PRPC006SAAN-RC Motor1Header2
+U 1 1 5C354284
+P 850 5150
+F 0 "Motor1Header2" H 1178 5215 50  0000 L CNN
+F 1 "PRPC006SAAN-RC" H 1178 5124 50  0000 L CNN
+F 2 "backplane:PRPC006SAAN-RC" H 850 5150 50  0001 C CNN
+F 3 "" H 850 5150 50  0001 C CNN
+	1    850  5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 5400 1000 5250
+Wire Wire Line
+	1100 5400 1100 5250
+Text GLabel 2050 5400 3    50   Input ~ 0
+Motor2EncoderPin1
+Text GLabel 2150 5400 3    50   Input ~ 0
+Motor2EncoderPin2
+Text GLabel 2250 5400 3    50   Input ~ 0
+Motor2EncoderPin3
+Text GLabel 2350 5400 3    50   Input ~ 0
+Motor2EncoderPin4
+Wire Wire Line
+	2050 5400 2050 5250
+Wire Wire Line
+	2150 5400 2150 5250
+Wire Wire Line
+	2250 5400 2250 5250
+Wire Wire Line
+	2350 5400 2350 5250
+Text GLabel 2450 5400 3    50   Input ~ 0
+Motor2EncoderPin5
+Text GLabel 2550 5400 3    50   Input ~ 0
+Motor2EncoderPin6
+$Comp
+L backplane_Library:PRPC006SAAN-RC Motor2Header2
+U 1 1 5C354297
+P 2300 5150
+F 0 "Motor2Header2" H 2628 5215 50  0000 L CNN
+F 1 "PRPC006SAAN-RC" H 2628 5124 50  0000 L CNN
+F 2 "backplane:PRPC006SAAN-RC" H 2300 5150 50  0001 C CNN
+F 3 "" H 2300 5150 50  0001 C CNN
+	1    2300 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 5400 2450 5250
+Wire Wire Line
+	2550 5400 2550 5250
+Text GLabel 3450 5400 3    50   Input ~ 0
+Motor3EncoderPin1
+Text GLabel 3550 5400 3    50   Input ~ 0
+Motor3EncoderPin2
+Text GLabel 3650 5400 3    50   Input ~ 0
+Motor3EncoderPin3
+Text GLabel 3750 5400 3    50   Input ~ 0
+Motor3EncoderPin4
+Wire Wire Line
+	3450 5400 3450 5250
+Wire Wire Line
+	3550 5400 3550 5250
+Wire Wire Line
+	3650 5400 3650 5250
+Wire Wire Line
+	3750 5400 3750 5250
+Text GLabel 3850 5400 3    50   Input ~ 0
+Motor3EncoderPin5
+Text GLabel 3950 5400 3    50   Input ~ 0
+Motor3EncoderPin6
+$Comp
+L backplane_Library:PRPC006SAAN-RC Motor3Header2
+U 1 1 5C3542AA
+P 3700 5150
+F 0 "Motor3Header2" H 4028 5215 50  0000 L CNN
+F 1 "PRPC006SAAN-RC" H 4028 5124 50  0000 L CNN
+F 2 "backplane:PRPC006SAAN-RC" H 3700 5150 50  0001 C CNN
+F 3 "" H 3700 5150 50  0001 C CNN
+	1    3700 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 5400 3850 5250
+Wire Wire Line
+	3950 5400 3950 5250
+Text GLabel 5000 5400 3    50   Input ~ 0
+Motor4EncoderPin1
+Text GLabel 5100 5400 3    50   Input ~ 0
+Motor4EncoderPin2
+Text GLabel 5200 5400 3    50   Input ~ 0
+Motor4EncoderPin3
+Text GLabel 5300 5400 3    50   Input ~ 0
+Motor4EncoderPin4
+Wire Wire Line
+	5000 5400 5000 5250
+Wire Wire Line
+	5100 5400 5100 5250
+Wire Wire Line
+	5200 5400 5200 5250
+Wire Wire Line
+	5300 5400 5300 5250
+Text GLabel 5400 5400 3    50   Input ~ 0
+Motor4EncoderPin5
+Text GLabel 5500 5400 3    50   Input ~ 0
+Motor4EncoderPin6
+$Comp
+L backplane_Library:PRPC006SAAN-RC Motor4Header2
+U 1 1 5C3542BD
+P 5250 5150
+F 0 "Motor4Header2" H 5578 5215 50  0000 L CNN
+F 1 "PRPC006SAAN-RC" H 5578 5124 50  0000 L CNN
+F 2 "backplane:PRPC006SAAN-RC" H 5250 5150 50  0001 C CNN
+F 3 "" H 5250 5150 50  0001 C CNN
+	1    5250 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 5400 5400 5250
+Wire Wire Line
+	5500 5400 5500 5250
+Text GLabel 600  6650 3    50   Input ~ 0
+Motor1EncoderPin1
+Text GLabel 700  6650 3    50   Input ~ 0
+Motor1EncoderPin2
+Text GLabel 800  6650 3    50   Input ~ 0
+Motor1EncoderPin3
+Text GLabel 900  6650 3    50   Input ~ 0
+Motor1EncoderPin4
+Wire Wire Line
+	600  6650 600  6500
+Wire Wire Line
+	700  6650 700  6500
+Wire Wire Line
+	800  6650 800  6500
+Wire Wire Line
+	900  6650 900  6500
+Text GLabel 1000 6650 3    50   Input ~ 0
+Motor1EncoderPin5
+Text GLabel 1100 6650 3    50   Input ~ 0
+Motor1EncoderPin6
+$Comp
+L backplane_Library:PRPC006SAAN-RC Motor1Header3
+U 1 1 5C3586BA
+P 850 6400
+F 0 "Motor1Header3" H 1178 6465 50  0000 L CNN
+F 1 "PRPC006SAAN-RC" H 1178 6374 50  0000 L CNN
+F 2 "backplane:PRPC006SAAN-RC" H 850 6400 50  0001 C CNN
+F 3 "" H 850 6400 50  0001 C CNN
+	1    850  6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 6650 1000 6500
+Wire Wire Line
+	1100 6650 1100 6500
+Text GLabel 2050 6650 3    50   Input ~ 0
+Motor2EncoderPin1
+Text GLabel 2150 6650 3    50   Input ~ 0
+Motor2EncoderPin2
+Text GLabel 2250 6650 3    50   Input ~ 0
+Motor2EncoderPin3
+Text GLabel 2350 6650 3    50   Input ~ 0
+Motor2EncoderPin4
+Wire Wire Line
+	2050 6650 2050 6500
+Wire Wire Line
+	2150 6650 2150 6500
+Wire Wire Line
+	2250 6650 2250 6500
+Wire Wire Line
+	2350 6650 2350 6500
+Text GLabel 2450 6650 3    50   Input ~ 0
+Motor2EncoderPin5
+Text GLabel 2550 6650 3    50   Input ~ 0
+Motor2EncoderPin6
+$Comp
+L backplane_Library:PRPC006SAAN-RC Motor2Header3
+U 1 1 5C3586CD
+P 2300 6400
+F 0 "Motor2Header3" H 2628 6465 50  0000 L CNN
+F 1 "PRPC006SAAN-RC" H 2628 6374 50  0000 L CNN
+F 2 "backplane:PRPC006SAAN-RC" H 2300 6400 50  0001 C CNN
+F 3 "" H 2300 6400 50  0001 C CNN
+	1    2300 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 6650 2450 6500
+Wire Wire Line
+	2550 6650 2550 6500
+Text GLabel 3450 6650 3    50   Input ~ 0
+Motor3EncoderPin1
+Text GLabel 3550 6650 3    50   Input ~ 0
+Motor3EncoderPin2
+Text GLabel 3650 6650 3    50   Input ~ 0
+Motor3EncoderPin3
+Text GLabel 3750 6650 3    50   Input ~ 0
+Motor3EncoderPin4
+Wire Wire Line
+	3450 6650 3450 6500
+Wire Wire Line
+	3550 6650 3550 6500
+Wire Wire Line
+	3650 6650 3650 6500
+Wire Wire Line
+	3750 6650 3750 6500
+Text GLabel 3850 6650 3    50   Input ~ 0
+Motor3EncoderPin5
+Text GLabel 3950 6650 3    50   Input ~ 0
+Motor3EncoderPin6
+$Comp
+L backplane_Library:PRPC006SAAN-RC Motor3Header3
+U 1 1 5C3586E0
+P 3700 6400
+F 0 "Motor3Header3" H 4028 6465 50  0000 L CNN
+F 1 "PRPC006SAAN-RC" H 4028 6374 50  0000 L CNN
+F 2 "backplane:PRPC006SAAN-RC" H 3700 6400 50  0001 C CNN
+F 3 "" H 3700 6400 50  0001 C CNN
+	1    3700 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 6650 3850 6500
+Wire Wire Line
+	3950 6650 3950 6500
+Text GLabel 5000 6650 3    50   Input ~ 0
+Motor4EncoderPin1
+Text GLabel 5100 6650 3    50   Input ~ 0
+Motor4EncoderPin2
+Text GLabel 5200 6650 3    50   Input ~ 0
+Motor4EncoderPin3
+Text GLabel 5300 6650 3    50   Input ~ 0
+Motor4EncoderPin4
+Wire Wire Line
+	5000 6650 5000 6500
+Wire Wire Line
+	5100 6650 5100 6500
+Wire Wire Line
+	5200 6650 5200 6500
+Wire Wire Line
+	5300 6650 5300 6500
+Text GLabel 5400 6650 3    50   Input ~ 0
+Motor4EncoderPin5
+Text GLabel 5500 6650 3    50   Input ~ 0
+Motor4EncoderPin6
+$Comp
+L backplane_Library:PRPC006SAAN-RC Motor4Header3
+U 1 1 5C3586F3
+P 5250 6400
+F 0 "Motor4Header3" H 5578 6465 50  0000 L CNN
+F 1 "PRPC006SAAN-RC" H 5578 6374 50  0000 L CNN
+F 2 "backplane:PRPC006SAAN-RC" H 5250 6400 50  0001 C CNN
+F 3 "" H 5250 6400 50  0001 C CNN
+	1    5250 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 6650 5400 6500
+Wire Wire Line
+	5500 6650 5500 6500
 $EndSCHEMATC

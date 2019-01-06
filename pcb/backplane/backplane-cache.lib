@@ -1,6 +1,22 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# backplane_Library_B4B-XH-A
+#
+DEF backplane_Library_B4B-XH-A U 0 40 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "backplane_Library_B4B-XH-A" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 100 200 -100 0 1 0 N
+X A 1 -150 -200 100 U 50 50 1 1 U
+X B 2 -50 -200 100 U 50 50 1 1 U
+X C 3 50 -200 100 U 50 50 1 1 U
+X D 4 150 -200 100 U 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
 # backplane_Library_CT3151V1-5
 #
 DEF backplane_Library_CT3151V1-5 U 0 40 Y Y 1 F N
@@ -14,6 +30,24 @@ X A 1 -250 50 100 R 50 50 1 1 U
 X B 2 -250 -50 100 R 50 50 1 1 U
 X C 3 250 -50 100 L 50 50 1 1 U
 X D 4 250 50 100 L 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
+# backplane_Library_PRPC006SAAN-RC
+#
+DEF backplane_Library_PRPC006SAAN-RC U 0 40 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "backplane_Library_PRPC006SAAN-RC" 0 200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 150 300 0 0 1 0 N
+X A 1 -250 -100 100 U 50 50 1 1 U
+X B 2 -150 -100 100 U 50 50 1 1 U
+X C 3 -50 -100 100 U 50 50 1 1 U
+X D 4 50 -100 100 U 50 50 1 1 U
+X E 5 150 -100 100 U 50 50 1 1 U
+X F 6 250 -100 100 U 50 50 1 1 U
 ENDDRAW
 ENDDEF
 #
