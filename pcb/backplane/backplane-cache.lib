@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# backplane_Library_74LVCH2T45DC,125
+# backplane-rescue_74LVCH2T45DC,125-backplane_Library
 #
-DEF backplane_Library_74LVCH2T45DC,125 U 0 40 Y Y 1 F N
+DEF backplane-rescue_74LVCH2T45DC,125-backplane_Library U 0 40 Y Y 1 F N
 F0 "U" -50 300 50 H V C CNN
-F1 "backplane_Library_74LVCH2T45DC,125" 0 -300 50 H V C CNN
+F1 "backplane-rescue_74LVCH2T45DC,125-backplane_Library" 0 -300 50 H V C CNN
 F2 "" -350 50 50 H I C CNN
 F3 "" -350 50 50 H I C CNN
 DRAW
@@ -21,11 +21,11 @@ X VCC(B) 8 400 150 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# backplane_Library_B4B-XH-A
+# backplane-rescue_B4B-XH-A-backplane_Library
 #
-DEF backplane_Library_B4B-XH-A U 0 40 Y Y 1 F N
+DEF backplane-rescue_B4B-XH-A-backplane_Library U 0 40 Y Y 1 F N
 F0 "U" 0 250 50 H V C CNN
-F1 "backplane_Library_B4B-XH-A" 0 150 50 H V C CNN
+F1 "backplane-rescue_B4B-XH-A-backplane_Library" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -37,11 +37,11 @@ X D 4 150 -200 100 U 50 50 1 1 U
 ENDDRAW
 ENDDEF
 #
-# backplane_Library_CT3151V1-5
+# backplane-rescue_CT3151V1-5-backplane_Library
 #
-DEF backplane_Library_CT3151V1-5 U 0 40 Y Y 1 F N
+DEF backplane-rescue_CT3151V1-5-backplane_Library U 0 40 Y Y 1 F N
 F0 "U" 0 150 50 H V C CNN
-F1 "backplane_Library_CT3151V1-5" 0 -150 50 H V C CNN
+F1 "backplane-rescue_CT3151V1-5-backplane_Library" 0 -150 50 H V C CNN
 F2 "" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 DRAW
@@ -53,11 +53,11 @@ X D 4 250 50 100 L 50 50 1 1 U
 ENDDRAW
 ENDDEF
 #
-# backplane_Library_PJ-037A
+# backplane-rescue_PJ-037A-backplane_Library
 #
-DEF backplane_Library_PJ-037A U 0 40 Y Y 1 F N
+DEF backplane-rescue_PJ-037A-backplane_Library U 0 40 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
-F1 "backplane_Library_PJ-037A" 0 250 50 H V C CNN
+F1 "backplane-rescue_PJ-037A-backplane_Library" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -67,11 +67,11 @@ X GND 2 -50 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# backplane_Library_PREC002SAAN-RC
+# backplane-rescue_PREC002SAAN-RC-backplane_Library
 #
-DEF backplane_Library_PREC002SAAN-RC U 0 40 Y Y 1 F N
+DEF backplane-rescue_PREC002SAAN-RC-backplane_Library U 0 40 Y Y 1 F N
 F0 "U" 0 400 50 H V C CNN
-F1 "backplane_Library_PREC002SAAN-RC" 50 300 50 H V C CNN
+F1 "backplane-rescue_PREC002SAAN-RC-backplane_Library" 50 300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
