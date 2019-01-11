@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>D:\gitHub\robot\pcb\backplane\backplane.sch</source>
-    <date>1/6/2019 3:43:35 PM</date>
+    <source>F:\github\robot\pcb\backplane\backplane.sch</source>
+    <date>1/10/2019 9:01:42 PM</date>
     <tool>Eeschema (5.0.2)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -19,257 +19,356 @@
     </sheet>
   </design>
   <components>
-    <comp ref="motor1Pwr1">
-      <value>CT3151V1-5</value>
-      <footprint>backplane:CT3151V1-5</footprint>
-      <libsource lib="backplane_Library" part="CT3151V1-5" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C31259A</tstamp>
-    </comp>
-    <comp ref="motor2Pwr1">
-      <value>CT3151V1-5</value>
-      <footprint>backplane:CT3151V1-5</footprint>
-      <libsource lib="backplane_Library" part="CT3151V1-5" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C312A1D</tstamp>
-    </comp>
-    <comp ref="motor3Pwr1">
-      <value>CT3151V1-5</value>
-      <footprint>backplane:CT3151V1-5</footprint>
-      <libsource lib="backplane_Library" part="CT3151V1-5" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C312A7A</tstamp>
-    </comp>
-    <comp ref="motor4Pwr1">
-      <value>CT3151V1-5</value>
-      <footprint>backplane:CT3151V1-5</footprint>
-      <libsource lib="backplane_Library" part="CT3151V1-5" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C312B34</tstamp>
-    </comp>
-    <comp ref="motor1Gnd1">
-      <value>CT3151V1-5</value>
-      <footprint>backplane:CT3151V1-5</footprint>
-      <libsource lib="backplane_Library" part="CT3151V1-5" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C312D35</tstamp>
-    </comp>
-    <comp ref="motor2Gnd1">
-      <value>CT3151V1-5</value>
-      <footprint>backplane:CT3151V1-5</footprint>
-      <libsource lib="backplane_Library" part="CT3151V1-5" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C312D44</tstamp>
-    </comp>
-    <comp ref="motor3Gnd1">
-      <value>CT3151V1-5</value>
-      <footprint>backplane:CT3151V1-5</footprint>
-      <libsource lib="backplane_Library" part="CT3151V1-5" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C312D53</tstamp>
-    </comp>
-    <comp ref="motor4Gnd1">
-      <value>CT3151V1-5</value>
-      <footprint>backplane:CT3151V1-5</footprint>
-      <libsource lib="backplane_Library" part="CT3151V1-5" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C312D62</tstamp>
-    </comp>
-    <comp ref="lipo1Pwr1">
-      <value>CT3151V1-5</value>
-      <footprint>backplane:CT3151V1-5</footprint>
-      <libsource lib="backplane_Library" part="CT3151V1-5" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C313EC2</tstamp>
-    </comp>
-    <comp ref="lipo2Pwr1">
-      <value>CT3151V1-5</value>
-      <footprint>backplane:CT3151V1-5</footprint>
-      <libsource lib="backplane_Library" part="CT3151V1-5" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C313ED1</tstamp>
-    </comp>
-    <comp ref="lipo1Gnd1">
-      <value>CT3151V1-5</value>
-      <footprint>backplane:CT3151V1-5</footprint>
-      <libsource lib="backplane_Library" part="CT3151V1-5" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C313EDE</tstamp>
-    </comp>
-    <comp ref="lipo2Gnd1">
-      <value>CT3151V1-5</value>
-      <footprint>backplane:CT3151V1-5</footprint>
-      <libsource lib="backplane_Library" part="CT3151V1-5" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C313EEB</tstamp>
-    </comp>
     <comp ref="JST1">
       <value>B4B-XH-A</value>
       <footprint>backplane:B4B-XH-A</footprint>
-      <libsource lib="backplane_Library" part="B4B-XH-A" description=""/>
+      <libsource lib="backplane-rescue" part="B4B-XH-A-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C3164AB</tstamp>
     </comp>
     <comp ref="JST3">
       <value>B4B-XH-A</value>
       <footprint>backplane:B4B-XH-A</footprint>
-      <libsource lib="backplane_Library" part="B4B-XH-A" description=""/>
+      <libsource lib="backplane-rescue" part="B4B-XH-A-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C316566</tstamp>
     </comp>
     <comp ref="JST2">
       <value>B4B-XH-A</value>
       <footprint>backplane:B4B-XH-A</footprint>
-      <libsource lib="backplane_Library" part="B4B-XH-A" description=""/>
+      <libsource lib="backplane-rescue" part="B4B-XH-A-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C3165D6</tstamp>
     </comp>
     <comp ref="JST4">
       <value>B4B-XH-A</value>
       <footprint>backplane:B4B-XH-A</footprint>
-      <libsource lib="backplane_Library" part="B4B-XH-A" description=""/>
+      <libsource lib="backplane-rescue" part="B4B-XH-A-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C31675A</tstamp>
     </comp>
     <comp ref="JST5">
       <value>B4B-XH-A</value>
       <footprint>backplane:B4B-XH-A</footprint>
-      <libsource lib="backplane_Library" part="B4B-XH-A" description=""/>
+      <libsource lib="backplane-rescue" part="B4B-XH-A-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C37AFBA</tstamp>
     </comp>
     <comp ref="JST7">
       <value>B4B-XH-A</value>
       <footprint>backplane:B4B-XH-A</footprint>
-      <libsource lib="backplane_Library" part="B4B-XH-A" description=""/>
+      <libsource lib="backplane-rescue" part="B4B-XH-A-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C37AFC1</tstamp>
     </comp>
     <comp ref="JST8">
       <value>B4B-XH-A</value>
       <footprint>backplane:B4B-XH-A</footprint>
-      <libsource lib="backplane_Library" part="B4B-XH-A" description=""/>
+      <libsource lib="backplane-rescue" part="B4B-XH-A-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C37AFC8</tstamp>
     </comp>
     <comp ref="JST6">
       <value>B4B-XH-A</value>
       <footprint>backplane:B4B-XH-A</footprint>
-      <libsource lib="backplane_Library" part="B4B-XH-A" description=""/>
+      <libsource lib="backplane-rescue" part="B4B-XH-A-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C37AFB3</tstamp>
     </comp>
     <comp ref="encoderpins1">
       <value>PREC002SAAN-RC</value>
       <footprint>backplane:PREC002SAAN-RC</footprint>
-      <libsource lib="backplane_Library" part="PREC002SAAN-RC" description=""/>
+      <libsource lib="backplane-rescue" part="PREC002SAAN-RC-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C4C6E55</tstamp>
     </comp>
     <comp ref="encoderpins5">
       <value>PREC002SAAN-RC</value>
       <footprint>backplane:PREC002SAAN-RC</footprint>
-      <libsource lib="backplane_Library" part="PREC002SAAN-RC" description=""/>
+      <libsource lib="backplane-rescue" part="PREC002SAAN-RC-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C4D0A4E</tstamp>
     </comp>
     <comp ref="encoderpins2">
       <value>PREC002SAAN-RC</value>
       <footprint>backplane:PREC002SAAN-RC</footprint>
-      <libsource lib="backplane_Library" part="PREC002SAAN-RC" description=""/>
+      <libsource lib="backplane-rescue" part="PREC002SAAN-RC-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C4DF04F</tstamp>
     </comp>
     <comp ref="encoderpins6">
       <value>PREC002SAAN-RC</value>
       <footprint>backplane:PREC002SAAN-RC</footprint>
-      <libsource lib="backplane_Library" part="PREC002SAAN-RC" description=""/>
+      <libsource lib="backplane-rescue" part="PREC002SAAN-RC-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C4DF058</tstamp>
     </comp>
     <comp ref="encoderpins3">
       <value>PREC002SAAN-RC</value>
       <footprint>backplane:PREC002SAAN-RC</footprint>
-      <libsource lib="backplane_Library" part="PREC002SAAN-RC" description=""/>
+      <libsource lib="backplane-rescue" part="PREC002SAAN-RC-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C4E1782</tstamp>
     </comp>
     <comp ref="encoderpins7">
       <value>PREC002SAAN-RC</value>
       <footprint>backplane:PREC002SAAN-RC</footprint>
-      <libsource lib="backplane_Library" part="PREC002SAAN-RC" description=""/>
+      <libsource lib="backplane-rescue" part="PREC002SAAN-RC-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C4E178B</tstamp>
     </comp>
     <comp ref="encoderpins4">
       <value>PREC002SAAN-RC</value>
       <footprint>backplane:PREC002SAAN-RC</footprint>
-      <libsource lib="backplane_Library" part="PREC002SAAN-RC" description=""/>
+      <libsource lib="backplane-rescue" part="PREC002SAAN-RC-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C4E4309</tstamp>
     </comp>
     <comp ref="encoderpins8">
       <value>PREC002SAAN-RC</value>
       <footprint>backplane:PREC002SAAN-RC</footprint>
-      <libsource lib="backplane_Library" part="PREC002SAAN-RC" description=""/>
+      <libsource lib="backplane-rescue" part="PREC002SAAN-RC-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C4E4312</tstamp>
     </comp>
-    <comp ref="U1">
+    <comp ref="levelShift1">
       <value>74LVCH2T45DC,125</value>
       <footprint>backplane:74LVCH2T45DC,125</footprint>
-      <libsource lib="backplane_Library" part="74LVCH2T45DC,125" description=""/>
+      <libsource lib="backplane-rescue" part="74LVCH2T45DC,125-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C50CE3B</tstamp>
     </comp>
-    <comp ref="U3">
+    <comp ref="levelShift2">
       <value>74LVCH2T45DC,125</value>
       <footprint>backplane:74LVCH2T45DC,125</footprint>
-      <libsource lib="backplane_Library" part="74LVCH2T45DC,125" description=""/>
+      <libsource lib="backplane-rescue" part="74LVCH2T45DC,125-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C5469F9</tstamp>
     </comp>
-    <comp ref="U2">
+    <comp ref="levelShift3">
       <value>74LVCH2T45DC,125</value>
       <footprint>backplane:74LVCH2T45DC,125</footprint>
-      <libsource lib="backplane_Library" part="74LVCH2T45DC,125" description=""/>
+      <libsource lib="backplane-rescue" part="74LVCH2T45DC,125-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C54A97F</tstamp>
     </comp>
-    <comp ref="U4">
+    <comp ref="levelShift4">
       <value>74LVCH2T45DC,125</value>
       <footprint>backplane:74LVCH2T45DC,125</footprint>
-      <libsource lib="backplane_Library" part="74LVCH2T45DC,125" description=""/>
+      <libsource lib="backplane-rescue" part="74LVCH2T45DC,125-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C54F340</tstamp>
     </comp>
     <comp ref="barrelJack1">
       <value>PJ-037A</value>
       <footprint>backplane:PJ-037A</footprint>
-      <libsource lib="backplane_Library" part="PJ-037A" description=""/>
+      <libsource lib="backplane-rescue" part="PJ-037A-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C55FED8</tstamp>
     </comp>
     <comp ref="barrelJack2">
       <value>PJ-037A</value>
       <footprint>backplane:PJ-037A</footprint>
-      <libsource lib="backplane_Library" part="PJ-037A" description=""/>
+      <libsource lib="backplane-rescue" part="PJ-037A-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C55FFE8</tstamp>
     </comp>
     <comp ref="barrelJack3">
       <value>PJ-037A</value>
       <footprint>backplane:PJ-037A</footprint>
-      <libsource lib="backplane_Library" part="PJ-037A" description=""/>
+      <libsource lib="backplane-rescue" part="PJ-037A-backplane_Library" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C5600AC</tstamp>
     </comp>
+    <comp ref="U6">
+      <value>IFX9201SGAUMA1</value>
+      <footprint>backplane:IFX9201SGAUMA1</footprint>
+      <libsource lib="backplane_Library" part="IFX9201SGAUMA1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C375057</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>IFX9201SGAUMA1</value>
+      <footprint>backplane:IFX9201SGAUMA1</footprint>
+      <libsource lib="backplane_Library" part="IFX9201SGAUMA1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C375322</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>IFX9201SGAUMA1</value>
+      <footprint>backplane:IFX9201SGAUMA1</footprint>
+      <libsource lib="backplane_Library" part="IFX9201SGAUMA1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C37B1D0</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>IFX9201SGAUMA1</value>
+      <footprint>backplane:IFX9201SGAUMA1</footprint>
+      <libsource lib="backplane_Library" part="IFX9201SGAUMA1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C381079</tstamp>
+    </comp>
+    <comp ref="motorPwm1">
+      <value>1336G1</value>
+      <footprint>backplane:1336G1</footprint>
+      <libsource lib="backplane_Library" part="1336G1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C384A12</tstamp>
+    </comp>
+    <comp ref="motorPwm2">
+      <value>1336G1</value>
+      <footprint>backplane:1336G1</footprint>
+      <libsource lib="backplane_Library" part="1336G1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C39427F</tstamp>
+    </comp>
+    <comp ref="motorPwm3">
+      <value>1336G1</value>
+      <footprint>backplane:1336G1</footprint>
+      <libsource lib="backplane_Library" part="1336G1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C399185</tstamp>
+    </comp>
+    <comp ref="motorPwm4">
+      <value>1336G1</value>
+      <footprint>backplane:1336G1</footprint>
+      <libsource lib="backplane_Library" part="1336G1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C39DFDA</tstamp>
+    </comp>
+    <comp ref="motorGnd1">
+      <value>1336G1</value>
+      <footprint>backplane:1336G1</footprint>
+      <libsource lib="backplane_Library" part="1336G1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3B2EA6</tstamp>
+    </comp>
+    <comp ref="motorGnd2">
+      <value>1336G1</value>
+      <footprint>backplane:1336G1</footprint>
+      <libsource lib="backplane_Library" part="1336G1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3B8791</tstamp>
+    </comp>
+    <comp ref="motorGnd3">
+      <value>1336G1</value>
+      <footprint>backplane:1336G1</footprint>
+      <libsource lib="backplane_Library" part="1336G1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3BDD7E</tstamp>
+    </comp>
+    <comp ref="motorGnd4">
+      <value>1336G1</value>
+      <footprint>backplane:1336G1</footprint>
+      <libsource lib="backplane_Library" part="1336G1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3C329D</tstamp>
+    </comp>
+    <comp ref="lipoIn1">
+      <value>1336G1</value>
+      <footprint>backplane:1336G1</footprint>
+      <libsource lib="backplane_Library" part="1336G1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3FB8B7</tstamp>
+    </comp>
+    <comp ref="lipoIn2">
+      <value>1336G1</value>
+      <footprint>backplane:1336G1</footprint>
+      <libsource lib="backplane_Library" part="1336G1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3FB943</tstamp>
+    </comp>
+    <comp ref="lipoGnd1">
+      <value>1336G1</value>
+      <footprint>backplane:1336G1</footprint>
+      <libsource lib="backplane_Library" part="1336G1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3FB9D5</tstamp>
+    </comp>
+    <comp ref="LipoGnd1">
+      <value>1336G1</value>
+      <footprint>backplane:1336G1</footprint>
+      <libsource lib="backplane_Library" part="1336G1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3FBA6F</tstamp>
+    </comp>
+    <comp ref="rail3v3">
+      <value>AP6503SP-13</value>
+      <footprint>backplane:AP6503SP-13</footprint>
+      <libsource lib="backplane_Library" part="AP6503SP-13" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C445579</tstamp>
+    </comp>
+    <comp ref="rail5v1">
+      <value>AP6503SP-13</value>
+      <footprint>backplane:AP6503SP-13</footprint>
+      <libsource lib="backplane_Library" part="AP6503SP-13" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4456D9</tstamp>
+    </comp>
+    <comp ref="rail12v1">
+      <value>AP6503SP-13</value>
+      <footprint>backplane:AP6503SP-13</footprint>
+      <libsource lib="backplane_Library" part="AP6503SP-13" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C445783</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>PCA9685PW</value>
+      <footprint>Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/PCA9685.pdf</datasheet>
+      <libsource lib="Driver_LED" part="PCA9685PW" description="16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C44601B</tstamp>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="backplane_Library" part="74LVCH2T45DC,125">
+    <libpart lib="Driver_LED" part="PCA9685PW">
+      <description>16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP</description>
+      <docs>http://www.nxp.com/documents/data_sheet/PCA9685.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x9.7mm*P0.65mm*</fp>
+      </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">74LVCH2T45DC,125</field>
+        <field name="Value">PCA9685PW</field>
+        <field name="Footprint">Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="A3" type="input"/>
+        <pin num="5" name="A4" type="input"/>
+        <pin num="6" name="LED0" type="output"/>
+        <pin num="7" name="LED1" type="output"/>
+        <pin num="8" name="LED2" type="output"/>
+        <pin num="9" name="LED3" type="output"/>
+        <pin num="10" name="LED4" type="output"/>
+        <pin num="11" name="LED5" type="output"/>
+        <pin num="12" name="LED6" type="output"/>
+        <pin num="13" name="LED7" type="output"/>
+        <pin num="14" name="VSS" type="power_in"/>
+        <pin num="15" name="LED8" type="output"/>
+        <pin num="16" name="LED9" type="output"/>
+        <pin num="17" name="LED10" type="output"/>
+        <pin num="18" name="LED11" type="output"/>
+        <pin num="19" name="LED12" type="output"/>
+        <pin num="20" name="LED13" type="output"/>
+        <pin num="21" name="LED14" type="output"/>
+        <pin num="22" name="LED15" type="output"/>
+        <pin num="23" name="~OE" type="input"/>
+        <pin num="24" name="A5" type="input"/>
+        <pin num="25" name="EXTCLK" type="input"/>
+        <pin num="26" name="SCL" type="input"/>
+        <pin num="27" name="SDA" type="BiDi"/>
+        <pin num="28" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="backplane-rescue" part="74LVCH2T45DC,125-backplane_Library">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVCH2T45DC,125-backplane_Library</field>
       </fields>
       <pins>
         <pin num="1" name="VCC(A)" type="input"/>
@@ -282,10 +381,10 @@
         <pin num="8" name="VCC(B)" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="backplane_Library" part="B4B-XH-A">
+    <libpart lib="backplane-rescue" part="B4B-XH-A-backplane_Library">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">B4B-XH-A</field>
+        <field name="Value">B4B-XH-A-backplane_Library</field>
       </fields>
       <pins>
         <pin num="1" name="A" type="unspc"/>
@@ -294,228 +393,554 @@
         <pin num="4" name="D" type="unspc"/>
       </pins>
     </libpart>
-    <libpart lib="backplane_Library" part="CT3151V1-5">
+    <libpart lib="backplane-rescue" part="PJ-037A-backplane_Library">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">CT3151V1-5</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="unspc"/>
-        <pin num="2" name="B" type="unspc"/>
-        <pin num="3" name="C" type="unspc"/>
-        <pin num="4" name="D" type="unspc"/>
-      </pins>
-    </libpart>
-    <libpart lib="backplane_Library" part="PJ-037A">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">PJ-037A</field>
+        <field name="Value">PJ-037A-backplane_Library</field>
       </fields>
       <pins>
         <pin num="1" name="VCC" type="input"/>
         <pin num="2" name="GND" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="backplane_Library" part="PREC002SAAN-RC">
+    <libpart lib="backplane-rescue" part="PREC002SAAN-RC-backplane_Library">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">PREC002SAAN-RC</field>
+        <field name="Value">PREC002SAAN-RC-backplane_Library</field>
       </fields>
       <pins>
         <pin num="1" name="A" type="unspc"/>
         <pin num="2" name="B" type="unspc"/>
       </pins>
     </libpart>
+    <libpart lib="backplane_Library" part="1336G1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">1336G1</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="backplane_Library" part="AP6503SP-13">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP6503SP-13</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BST" type="input"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="FB" type="input"/>
+        <pin num="6" name="COMP" type="input"/>
+        <pin num="7" name="EN" type="input"/>
+        <pin num="8" name="SS" type="input"/>
+        <pin num="9" name="GND" type="input"/>
+        <pin num="~" name="SW" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="backplane_Library" part="IFX9201SGAUMA1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IFX9201SGAUMA1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIR" type="input"/>
+        <pin num="2" name="VSO" type="input"/>
+        <pin num="3" name="SO" type="output"/>
+        <pin num="4" name="VS" type="input"/>
+        <pin num="5" name="OUT1" type="output"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="OUT2" type="output"/>
+        <pin num="8" name="SI" type="input"/>
+        <pin num="9" name="CSN" type="input"/>
+        <pin num="10" name="SCK" type="input"/>
+        <pin num="11" name="DIS" type="input"/>
+        <pin num="12" name="PWM" type="input"/>
+        <pin num="13" name="SLUGGND" type="input"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
+    <library logical="Driver_LED">
+      <uri>F:\KiCad\share\kicad\library/Driver_LED.lib</uri>
+    </library>
+    <library logical="backplane-rescue">
+      <uri>F:\github\robot\pcb\backplane/backplane-rescue.lib</uri>
+    </library>
     <library logical="backplane_Library">
-      <uri>D:/gitHub/robot/pcb/backplane/backplane_Library.lib</uri>
+      <uri>F:\github\robot\pcb\backplane/backplane_Library.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Motor2EncoderB_3v3">
-      <node ref="encoderpins7" pin="2"/>
-      <node ref="U3" pin="6"/>
+    <net code="1" name="Motor4EncoderB">
+      <node ref="encoderpins4" pin="2"/>
+      <node ref="JST8" pin="4"/>
+      <node ref="JST4" pin="4"/>
+      <node ref="levelShift4" pin="3"/>
     </net>
-    <net code="2" name="Motor3EncoderB">
-      <node ref="JST3" pin="4"/>
-      <node ref="JST5" pin="4"/>
-      <node ref="encoderpins2" pin="2"/>
-      <node ref="U2" pin="3"/>
+    <net code="2" name="GND">
+      <node ref="JST5" pin="1"/>
+      <node ref="JST8" pin="1"/>
+      <node ref="JST7" pin="1"/>
+      <node ref="motorGnd4" pin="~"/>
+      <node ref="barrelJack3" pin="2"/>
+      <node ref="LipoGnd1" pin="~"/>
+      <node ref="lipoGnd1" pin="~"/>
+      <node ref="motorGnd3" pin="~"/>
+      <node ref="motorGnd2" pin="~"/>
+      <node ref="motorGnd1" pin="~"/>
+      <node ref="levelShift2" pin="4"/>
+      <node ref="levelShift1" pin="5"/>
+      <node ref="levelShift1" pin="4"/>
+      <node ref="JST6" pin="1"/>
+      <node ref="JST4" pin="2"/>
+      <node ref="JST2" pin="2"/>
+      <node ref="JST3" pin="2"/>
+      <node ref="JST1" pin="2"/>
+      <node ref="levelShift4" pin="4"/>
+      <node ref="levelShift3" pin="4"/>
+      <node ref="barrelJack1" pin="2"/>
+      <node ref="levelShift3" pin="5"/>
+      <node ref="levelShift2" pin="5"/>
+      <node ref="barrelJack2" pin="2"/>
+      <node ref="levelShift4" pin="5"/>
     </net>
-    <net code="3" name="Motor2EncoderB">
-      <node ref="JST2" pin="4"/>
-      <node ref="JST7" pin="4"/>
-      <node ref="encoderpins3" pin="2"/>
-      <node ref="U3" pin="3"/>
+    <net code="3" name="Motor4EncoderB_3v3">
+      <node ref="encoderpins8" pin="2"/>
+      <node ref="levelShift4" pin="6"/>
     </net>
-    <net code="4" name="Motor4EncoderA">
+    <net code="4" name="Motor4EncoderA_3v3">
+      <node ref="encoderpins8" pin="1"/>
+      <node ref="levelShift4" pin="7"/>
+    </net>
+    <net code="5" name="+3V3">
+      <node ref="barrelJack3" pin="1"/>
+      <node ref="levelShift2" pin="8"/>
+      <node ref="levelShift1" pin="8"/>
+      <node ref="levelShift4" pin="8"/>
+      <node ref="levelShift3" pin="8"/>
+    </net>
+    <net code="6" name="Motor4EncoderA">
+      <node ref="JST8" pin="3"/>
       <node ref="JST4" pin="3"/>
       <node ref="encoderpins4" pin="1"/>
-      <node ref="JST8" pin="3"/>
-      <node ref="U4" pin="2"/>
+      <node ref="levelShift4" pin="2"/>
     </net>
-    <net code="5" name="Motor4EncoderB_3v3">
-      <node ref="U4" pin="6"/>
-      <node ref="encoderpins8" pin="2"/>
+    <net code="7" name="+5V">
+      <node ref="barrelJack1" pin="1"/>
+      <node ref="JST8" pin="2"/>
+      <node ref="JST7" pin="2"/>
+      <node ref="JST1" pin="1"/>
+      <node ref="JST4" pin="1"/>
+      <node ref="JST2" pin="1"/>
+      <node ref="levelShift4" pin="1"/>
+      <node ref="JST6" pin="2"/>
+      <node ref="levelShift2" pin="1"/>
+      <node ref="levelShift3" pin="1"/>
+      <node ref="JST3" pin="1"/>
+      <node ref="JST5" pin="2"/>
+      <node ref="levelShift1" pin="1"/>
     </net>
-    <net code="6" name="Motor4EncoderA_3v3">
-      <node ref="encoderpins8" pin="1"/>
-      <node ref="U4" pin="7"/>
+    <net code="8" name="Net-(U6-Pad6)">
+      <node ref="U6" pin="6"/>
     </net>
-    <net code="7" name="Motor4EncoderB">
-      <node ref="JST8" pin="4"/>
-      <node ref="U4" pin="3"/>
-      <node ref="JST4" pin="4"/>
-      <node ref="encoderpins4" pin="2"/>
+    <net code="9" name="Net-(U6-Pad5)">
+      <node ref="U6" pin="5"/>
     </net>
-    <net code="8" name="Motor2EncoderA">
-      <node ref="JST2" pin="3"/>
-      <node ref="JST7" pin="3"/>
-      <node ref="U3" pin="2"/>
-      <node ref="encoderpins3" pin="1"/>
+    <net code="10" name="Net-(U6-Pad4)">
+      <node ref="U6" pin="4"/>
     </net>
-    <net code="9" name="Motor2EncoderA_3v3">
-      <node ref="encoderpins7" pin="1"/>
-      <node ref="U3" pin="7"/>
+    <net code="11" name="Net-(U6-Pad3)">
+      <node ref="U6" pin="3"/>
     </net>
-    <net code="10" name="Motor3EncoderA">
+    <net code="12" name="Net-(U6-Pad2)">
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="13" name="Net-(U6-Pad13)">
+      <node ref="U6" pin="13"/>
+    </net>
+    <net code="14" name="Net-(U6-Pad12)">
+      <node ref="U6" pin="12"/>
+    </net>
+    <net code="15" name="Net-(U6-Pad11)">
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="16" name="Net-(U6-Pad10)">
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="17" name="Net-(U6-Pad1)">
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="18" name="+12V">
+      <node ref="barrelJack2" pin="1"/>
+    </net>
+    <net code="19" name="Motor3EncoderB">
+      <node ref="JST5" pin="4"/>
+      <node ref="JST3" pin="4"/>
+      <node ref="encoderpins2" pin="2"/>
+      <node ref="levelShift3" pin="3"/>
+    </net>
+    <net code="20" name="Motor3EncoderA">
       <node ref="JST5" pin="3"/>
-      <node ref="encoderpins2" pin="1"/>
       <node ref="JST3" pin="3"/>
-      <node ref="U2" pin="2"/>
+      <node ref="encoderpins2" pin="1"/>
+      <node ref="levelShift3" pin="2"/>
     </net>
-    <net code="11" name="Motor3EncoderB_3v3">
-      <node ref="U2" pin="6"/>
+    <net code="21" name="Motor2EncoderB_3v3">
+      <node ref="levelShift2" pin="6"/>
+      <node ref="encoderpins7" pin="2"/>
+    </net>
+    <net code="22" name="Motor2EncoderA_3v3">
+      <node ref="encoderpins7" pin="1"/>
+      <node ref="levelShift2" pin="7"/>
+    </net>
+    <net code="23" name="Motor2EncoderB">
+      <node ref="JST7" pin="4"/>
+      <node ref="encoderpins3" pin="2"/>
+      <node ref="levelShift2" pin="3"/>
+      <node ref="JST2" pin="4"/>
+    </net>
+    <net code="24" name="Motor2EncoderA">
+      <node ref="JST2" pin="3"/>
+      <node ref="encoderpins3" pin="1"/>
+      <node ref="levelShift2" pin="2"/>
+      <node ref="JST7" pin="3"/>
+    </net>
+    <net code="25" name="Motor3EncoderB_3v3">
+      <node ref="levelShift3" pin="6"/>
       <node ref="encoderpins6" pin="2"/>
     </net>
-    <net code="12" name="Motor3EncoderA_3v3">
-      <node ref="U2" pin="7"/>
+    <net code="26" name="Motor3EncoderA_3v3">
+      <node ref="levelShift3" pin="7"/>
       <node ref="encoderpins6" pin="1"/>
     </net>
-    <net code="13" name="Motor1EncoderB_3v3">
-      <node ref="encoderpins5" pin="2"/>
+    <net code="27" name="Net-(U6-Pad7)">
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="28" name="Net-(rail3v3-Pad~)">
+      <node ref="rail3v3" pin="~"/>
+    </net>
+    <net code="29" name="Net-(rail12v1-Pad7)">
+      <node ref="rail12v1" pin="7"/>
+    </net>
+    <net code="30" name="Net-(rail12v1-Pad6)">
+      <node ref="rail12v1" pin="6"/>
+    </net>
+    <net code="31" name="Net-(rail12v1-Pad5)">
+      <node ref="rail12v1" pin="5"/>
+    </net>
+    <net code="32" name="Net-(rail12v1-Pad4)">
+      <node ref="rail12v1" pin="4"/>
+    </net>
+    <net code="33" name="Net-(rail12v1-Pad2)">
+      <node ref="rail12v1" pin="2"/>
+    </net>
+    <net code="34" name="Net-(rail12v1-Pad1)">
+      <node ref="rail12v1" pin="1"/>
+    </net>
+    <net code="35" name="Net-(rail5v1-Pad~)">
+      <node ref="rail5v1" pin="~"/>
+    </net>
+    <net code="36" name="Net-(rail5v1-Pad9)">
+      <node ref="rail5v1" pin="9"/>
+    </net>
+    <net code="37" name="Net-(rail5v1-Pad8)">
+      <node ref="rail5v1" pin="8"/>
+    </net>
+    <net code="38" name="Net-(rail5v1-Pad7)">
+      <node ref="rail5v1" pin="7"/>
+    </net>
+    <net code="39" name="Net-(rail5v1-Pad6)">
+      <node ref="rail5v1" pin="6"/>
+    </net>
+    <net code="40" name="Net-(rail5v1-Pad5)">
+      <node ref="rail5v1" pin="5"/>
+    </net>
+    <net code="41" name="Net-(rail5v1-Pad4)">
+      <node ref="rail5v1" pin="4"/>
+    </net>
+    <net code="42" name="Net-(rail5v1-Pad2)">
+      <node ref="rail5v1" pin="2"/>
+    </net>
+    <net code="43" name="Net-(rail5v1-Pad1)">
+      <node ref="rail5v1" pin="1"/>
+    </net>
+    <net code="44" name="Net-(rail12v1-Pad8)">
+      <node ref="rail12v1" pin="8"/>
+    </net>
+    <net code="45" name="Net-(rail3v3-Pad9)">
+      <node ref="rail3v3" pin="9"/>
+    </net>
+    <net code="46" name="Net-(rail3v3-Pad8)">
+      <node ref="rail3v3" pin="8"/>
+    </net>
+    <net code="47" name="Net-(rail3v3-Pad7)">
+      <node ref="rail3v3" pin="7"/>
+    </net>
+    <net code="48" name="Net-(rail3v3-Pad6)">
+      <node ref="rail3v3" pin="6"/>
+    </net>
+    <net code="49" name="Net-(rail3v3-Pad5)">
+      <node ref="rail3v3" pin="5"/>
+    </net>
+    <net code="50" name="Net-(rail3v3-Pad4)">
+      <node ref="rail3v3" pin="4"/>
+    </net>
+    <net code="51" name="Net-(rail3v3-Pad2)">
+      <node ref="rail3v3" pin="2"/>
+    </net>
+    <net code="52" name="Net-(rail3v3-Pad1)">
+      <node ref="rail3v3" pin="1"/>
+    </net>
+    <net code="53" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="54" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="55" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="56" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="57" name="Net-(U1-Pad6)">
       <node ref="U1" pin="6"/>
     </net>
-    <net code="14" name="Motor1EncoderA_3v3">
-      <node ref="U1" pin="7"/>
-      <node ref="encoderpins5" pin="1"/>
-    </net>
-    <net code="15" name="+3V3">
-      <node ref="U4" pin="8"/>
-      <node ref="U1" pin="8"/>
-      <node ref="U3" pin="8"/>
-      <node ref="U2" pin="8"/>
-      <node ref="barrelJack3" pin="1"/>
-    </net>
-    <net code="16" name="GND">
-      <node ref="lipo1Gnd1" pin="2"/>
-      <node ref="motor1Gnd1" pin="1"/>
-      <node ref="motor2Gnd1" pin="3"/>
-      <node ref="motor2Gnd1" pin="2"/>
-      <node ref="JST3" pin="2"/>
-      <node ref="lipo1Gnd1" pin="1"/>
-      <node ref="motor2Gnd1" pin="1"/>
-      <node ref="motor4Gnd1" pin="4"/>
-      <node ref="motor4Gnd1" pin="3"/>
-      <node ref="motor4Gnd1" pin="2"/>
-      <node ref="motor4Gnd1" pin="1"/>
-      <node ref="motor2Gnd1" pin="4"/>
-      <node ref="motor3Gnd1" pin="4"/>
-      <node ref="motor3Gnd1" pin="3"/>
-      <node ref="motor3Gnd1" pin="2"/>
-      <node ref="motor3Gnd1" pin="1"/>
-      <node ref="JST5" pin="1"/>
-      <node ref="JST2" pin="2"/>
-      <node ref="JST7" pin="1"/>
-      <node ref="JST8" pin="1"/>
-      <node ref="JST1" pin="2"/>
-      <node ref="lipo2Gnd1" pin="4"/>
-      <node ref="lipo2Gnd1" pin="3"/>
-      <node ref="lipo2Gnd1" pin="2"/>
-      <node ref="JST4" pin="2"/>
-      <node ref="lipo2Gnd1" pin="1"/>
-      <node ref="motor1Gnd1" pin="4"/>
-      <node ref="motor1Gnd1" pin="3"/>
-      <node ref="motor1Gnd1" pin="2"/>
-      <node ref="lipo1Gnd1" pin="3"/>
-      <node ref="lipo1Gnd1" pin="4"/>
-      <node ref="JST6" pin="1"/>
-      <node ref="U1" pin="4"/>
+    <net code="58" name="Net-(U1-Pad5)">
       <node ref="U1" pin="5"/>
-      <node ref="barrelJack3" pin="2"/>
-      <node ref="barrelJack2" pin="2"/>
-      <node ref="barrelJack1" pin="2"/>
-      <node ref="U4" pin="5"/>
-      <node ref="U4" pin="4"/>
-      <node ref="U3" pin="5"/>
-      <node ref="U3" pin="4"/>
-      <node ref="U2" pin="5"/>
-      <node ref="U2" pin="4"/>
     </net>
-    <net code="17" name="Motor1EncoderB">
+    <net code="59" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="60" name="Net-(U1-Pad3)">
       <node ref="U1" pin="3"/>
+    </net>
+    <net code="61" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="62" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="63" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="64" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="65" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="66" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="67" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="68" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="69" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="70" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="71" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="72" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="73" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="74" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="75" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="76" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="77" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="78" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="79" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="80" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="81" name="Net-(rail12v1-Pad~)">
+      <node ref="rail12v1" pin="~"/>
+    </net>
+    <net code="82" name="Net-(rail12v1-Pad9)">
+      <node ref="rail12v1" pin="9"/>
+    </net>
+    <net code="83" name="Net-(U7-Pad9)">
+      <node ref="U7" pin="9"/>
+    </net>
+    <net code="84" name="Net-(U8-Pad10)">
+      <node ref="U8" pin="10"/>
+    </net>
+    <net code="85" name="Net-(U8-Pad1)">
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="86" name="Net-(U5-Pad9)">
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="87" name="Net-(U5-Pad8)">
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="88" name="Net-(U5-Pad7)">
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="89" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="90" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="91" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="92" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="93" name="Net-(U5-Pad2)">
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="94" name="Net-(U5-Pad13)">
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="95" name="Net-(U5-Pad12)">
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="96" name="Net-(U5-Pad11)">
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="97" name="Net-(U5-Pad10)">
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="98" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="99" name="Net-(U8-Pad11)">
+      <node ref="U8" pin="11"/>
+    </net>
+    <net code="100" name="Net-(U7-Pad8)">
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="101" name="Net-(U7-Pad7)">
+      <node ref="U7" pin="7"/>
+    </net>
+    <net code="102" name="Net-(U7-Pad6)">
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="103" name="Net-(U7-Pad5)">
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="104" name="Net-(U7-Pad4)">
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="105" name="Net-(U7-Pad3)">
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="106" name="Net-(U7-Pad2)">
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="107" name="Net-(U7-Pad13)">
+      <node ref="U7" pin="13"/>
+    </net>
+    <net code="108" name="Net-(U7-Pad12)">
+      <node ref="U7" pin="12"/>
+    </net>
+    <net code="109" name="Net-(U7-Pad11)">
+      <node ref="U7" pin="11"/>
+    </net>
+    <net code="110" name="Net-(U7-Pad10)">
+      <node ref="U7" pin="10"/>
+    </net>
+    <net code="111" name="Net-(U7-Pad1)">
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="112" name="Net-(U6-Pad9)">
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="113" name="Net-(U6-Pad8)">
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="114" name="motor1PwmOut">
+      <node ref="motorPwm1" pin="~"/>
+    </net>
+    <net code="115" name="motor4PwmOut">
+      <node ref="motorPwm4" pin="~"/>
+    </net>
+    <net code="116" name="motor2PwmOut">
+      <node ref="motorPwm2" pin="~"/>
+    </net>
+    <net code="117" name="Net-(motorPwm3-Pad~)">
+      <node ref="motorPwm3" pin="~"/>
+    </net>
+    <net code="118" name="Net-(U8-Pad9)">
+      <node ref="U8" pin="9"/>
+    </net>
+    <net code="119" name="Net-(U8-Pad8)">
+      <node ref="U8" pin="8"/>
+    </net>
+    <net code="120" name="Net-(U8-Pad7)">
+      <node ref="U8" pin="7"/>
+    </net>
+    <net code="121" name="Net-(U8-Pad6)">
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="122" name="Net-(U8-Pad5)">
+      <node ref="U8" pin="5"/>
+    </net>
+    <net code="123" name="Net-(U8-Pad4)">
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="124" name="Net-(U8-Pad3)">
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="125" name="Net-(U8-Pad2)">
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="126" name="Net-(U8-Pad13)">
+      <node ref="U8" pin="13"/>
+    </net>
+    <net code="127" name="Net-(U8-Pad12)">
+      <node ref="U8" pin="12"/>
+    </net>
+    <net code="128" name="Motor1EncoderA">
+      <node ref="JST6" pin="3"/>
+      <node ref="JST1" pin="3"/>
+      <node ref="levelShift1" pin="2"/>
+      <node ref="encoderpins1" pin="1"/>
+    </net>
+    <net code="129" name="Motor1EncoderB">
       <node ref="encoderpins1" pin="2"/>
+      <node ref="levelShift1" pin="3"/>
       <node ref="JST1" pin="4"/>
       <node ref="JST6" pin="4"/>
     </net>
-    <net code="18" name="Motor1EncoderA">
-      <node ref="U1" pin="2"/>
-      <node ref="JST6" pin="3"/>
-      <node ref="encoderpins1" pin="1"/>
-      <node ref="JST1" pin="3"/>
+    <net code="131" name="+14v8">
+      <node ref="lipoIn2" pin="~"/>
+      <node ref="lipoIn1" pin="~"/>
     </net>
-    <net code="19" name="+5V">
-      <node ref="JST3" pin="1"/>
-      <node ref="U4" pin="1"/>
-      <node ref="JST7" pin="2"/>
-      <node ref="JST2" pin="1"/>
-      <node ref="U2" pin="1"/>
-      <node ref="barrelJack1" pin="1"/>
-      <node ref="JST4" pin="1"/>
-      <node ref="JST1" pin="1"/>
-      <node ref="U1" pin="1"/>
-      <node ref="JST5" pin="2"/>
-      <node ref="JST6" pin="2"/>
-      <node ref="U3" pin="1"/>
-      <node ref="JST8" pin="2"/>
+    <net code="132" name="Motor1EncoderA_3v3">
+      <node ref="encoderpins5" pin="1"/>
+      <node ref="levelShift1" pin="7"/>
     </net>
-    <net code="20" name="+12V">
-      <node ref="barrelJack2" pin="1"/>
-    </net>
-    <net code="21" name="motor2PwmOut">
-      <node ref="motor2Pwr1" pin="2"/>
-      <node ref="motor2Pwr1" pin="4"/>
-      <node ref="motor2Pwr1" pin="3"/>
-      <node ref="motor2Pwr1" pin="1"/>
-    </net>
-    <net code="22" name="motor3PwmOut">
-      <node ref="motor3Pwr1" pin="3"/>
-      <node ref="motor3Pwr1" pin="4"/>
-      <node ref="motor3Pwr1" pin="1"/>
-      <node ref="motor3Pwr1" pin="2"/>
-    </net>
-    <net code="23" name="motor1PwmOut">
-      <node ref="motor1Pwr1" pin="4"/>
-      <node ref="motor1Pwr1" pin="3"/>
-      <node ref="motor1Pwr1" pin="2"/>
-      <node ref="motor1Pwr1" pin="1"/>
-    </net>
-    <net code="24" name="motor4PwmOut">
-      <node ref="motor4Pwr1" pin="4"/>
-      <node ref="motor4Pwr1" pin="3"/>
-      <node ref="motor4Pwr1" pin="2"/>
-      <node ref="motor4Pwr1" pin="1"/>
-    </net>
-    <net code="25" name="+14v8">
-      <node ref="lipo2Pwr1" pin="2"/>
-      <node ref="lipo2Pwr1" pin="3"/>
-      <node ref="lipo2Pwr1" pin="4"/>
-      <node ref="lipo2Pwr1" pin="1"/>
-      <node ref="lipo1Pwr1" pin="4"/>
-      <node ref="lipo1Pwr1" pin="3"/>
-      <node ref="lipo1Pwr1" pin="2"/>
-      <node ref="lipo1Pwr1" pin="1"/>
+    <net code="133" name="Motor1EncoderB_3v3">
+      <node ref="levelShift1" pin="6"/>
+      <node ref="encoderpins5" pin="2"/>
     </net>
   </nets>
 </export>

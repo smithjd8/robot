@@ -1,0 +1,9 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"U5,U6,U7,U8";"IFX9201SGAUMA1";4;"IFX9201SGAUMA1";;;
+2;"barrelJack1,barrelJack2,barrelJack3";"PJ-037A";3;"PJ-037A";;;
+3;"encoderpins1,encoderpins2,encoderpins3,encoderpins4,encoderpins5,encoderpins6,encoderpins7,encoderpins8";"PREC002SAAN-RC";8;"PREC002SAAN-RC";;;
+4;"JST1,JST2,JST3,JST4,JST5,JST6,JST7,JST8";"B4B-XH-A";8;"B4B-XH-A";;;
+5;"levelShift1,levelShift2,levelShift3,levelShift4";"74LVCH2T45DC,125";4;"74LVCH2T45DC,125";;;
+6;"LipoGnd1,lipoGnd1,lipoIn1,lipoIn2,motorGnd1,motorGnd2,motorGnd3,motorGnd4,motorPwm1,motorPwm2,motorPwm3,motorPwm4";"1336G1";12;"1336G1";;;
+7;"rail12v1,rail3v3,rail5v1";"AP6503SP-13";3;"AP6503SP-13";;;
+8;"U1";"TSSOP-28_4.4x9.7mm_P0.65mm";1;"PCA9685PW";;;
