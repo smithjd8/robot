@@ -14,82 +14,80 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 1150 750  0    50   Input ~ 0
-motor1PwmOut
+Text GLabel 1250 750  0    50   Input ~ 0
+motorControlOut1
 Wire Wire Line
-	1250 750  1150 750 
-Text GLabel 1150 1200 0    50   Input ~ 0
-motor2PwmOut
+	1350 750  1250 750 
+Text GLabel 1250 1200 0    50   Input ~ 0
+motorControlOut2
 Wire Wire Line
-	1250 1200 1150 1200
-Text GLabel 1150 1650 0    50   Input ~ 0
-motor3PwmOut
+	1350 1200 1250 1200
+Text GLabel 1250 1650 0    50   Input ~ 0
+motorControlOut3
 Wire Wire Line
-	1250 1650 1150 1650
+	1350 1650 1250 1650
+Text GLabel 1250 2100 0    50   Input ~ 0
+motorControlOut4
 Wire Wire Line
-	1250 1750 1250 1650
-Text GLabel 1150 2100 0    50   Input ~ 0
-motor4PwmOut
+	1350 2100 1250 2100
 Wire Wire Line
-	1250 2100 1150 2100
+	2400 850  2300 850 
 Wire Wire Line
-	2200 850  2100 850 
+	2400 950  2400 850 
 Wire Wire Line
-	2200 950  2200 850 
+	2400 1400 2300 1400
 Wire Wire Line
-	2200 1400 2100 1400
+	2400 1500 2400 1400
 Wire Wire Line
-	2200 1500 2200 1400
+	2400 1900 2300 1900
 Wire Wire Line
-	2200 1900 2100 1900
+	2400 2000 2400 1900
 Wire Wire Line
-	2200 2000 2200 1900
+	2400 2400 2300 2400
 Wire Wire Line
-	2200 2400 2100 2400
-Wire Wire Line
-	2200 2500 2200 2400
+	2400 2500 2400 2400
 $Comp
 L power:GND #PWR01
 U 1 1 5C3134B4
-P 2100 850
-F 0 "#PWR01" H 2100 600 50  0001 C CNN
-F 1 "GND" H 2105 677 50  0000 C CNN
-F 2 "" H 2100 850 50  0001 C CNN
-F 3 "" H 2100 850 50  0001 C CNN
-	1    2100 850 
+P 2300 850
+F 0 "#PWR01" H 2300 600 50  0001 C CNN
+F 1 "GND" H 2305 677 50  0000 C CNN
+F 2 "" H 2300 850 50  0001 C CNN
+F 3 "" H 2300 850 50  0001 C CNN
+	1    2300 850 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 5C3135F0
-P 2100 1400
-F 0 "#PWR02" H 2100 1150 50  0001 C CNN
-F 1 "GND" H 2105 1227 50  0000 C CNN
-F 2 "" H 2100 1400 50  0001 C CNN
-F 3 "" H 2100 1400 50  0001 C CNN
-	1    2100 1400
+P 2300 1400
+F 0 "#PWR02" H 2300 1150 50  0001 C CNN
+F 1 "GND" H 2305 1227 50  0000 C CNN
+F 2 "" H 2300 1400 50  0001 C CNN
+F 3 "" H 2300 1400 50  0001 C CNN
+	1    2300 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 5C313834
-P 2100 1900
-F 0 "#PWR03" H 2100 1650 50  0001 C CNN
-F 1 "GND" H 2105 1727 50  0000 C CNN
-F 2 "" H 2100 1900 50  0001 C CNN
-F 3 "" H 2100 1900 50  0001 C CNN
-	1    2100 1900
+P 2300 1900
+F 0 "#PWR03" H 2300 1650 50  0001 C CNN
+F 1 "GND" H 2305 1727 50  0000 C CNN
+F 2 "" H 2300 1900 50  0001 C CNN
+F 3 "" H 2300 1900 50  0001 C CNN
+	1    2300 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 5C313B08
-P 2100 2400
-F 0 "#PWR04" H 2100 2150 50  0001 C CNN
-F 1 "GND" H 2105 2227 50  0000 C CNN
-F 2 "" H 2100 2400 50  0001 C CNN
-F 3 "" H 2100 2400 50  0001 C CNN
-	1    2100 2400
+P 2300 2400
+F 0 "#PWR04" H 2300 2150 50  0001 C CNN
+F 1 "GND" H 2305 2227 50  0000 C CNN
+F 2 "" H 2300 2400 50  0001 C CNN
+F 3 "" H 2300 2400 50  0001 C CNN
+	1    2300 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1141,155 +1139,122 @@ Wire Wire Line
 $Comp
 L backplane_Library:IFX9201SGAUMA1 U6
 U 1 1 5C375057
-P 12450 1200
-F 0 "U6" H 12400 1700 50  0000 C CNN
-F 1 "IFX9201SGAUMA1" H 12450 1600 50  0000 C CNN
-F 2 "backplane:IFX9201SGAUMA1" H 12250 1200 50  0001 C CNN
-F 3 "" H 12250 1200 50  0001 C CNN
-	1    12450 1200
+P 2000 8800
+F 0 "U6" H 1950 9300 50  0000 C CNN
+F 1 "IFX9201SGAUMA1" H 2000 9200 50  0000 C CNN
+F 2 "backplane:IFX9201SGAUMA1" H 1800 8800 50  0001 C CNN
+F 3 "" H 1800 8800 50  0001 C CNN
+	1    2000 8800
 	1    0    0    -1  
 $EndComp
 $Comp
-L backplane_Library:IFX9201SGAUMA1 U7
-U 1 1 5C375322
-P 14250 1200
-F 0 "U7" H 14200 1700 50  0000 C CNN
-F 1 "IFX9201SGAUMA1" H 14250 1600 50  0000 C CNN
-F 2 "backplane:IFX9201SGAUMA1" H 14050 1200 50  0001 C CNN
-F 3 "" H 14050 1200 50  0001 C CNN
-	1    14250 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L backplane_Library:IFX9201SGAUMA1 U5
-U 1 1 5C37B1D0
-P 12400 3400
-F 0 "U5" H 12350 3900 50  0000 C CNN
-F 1 "IFX9201SGAUMA1" H 12400 3800 50  0000 C CNN
-F 2 "backplane:IFX9201SGAUMA1" H 12200 3400 50  0001 C CNN
-F 3 "" H 12200 3400 50  0001 C CNN
-	1    12400 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L backplane_Library:IFX9201SGAUMA1 U8
-U 1 1 5C381079
-P 14250 3400
-F 0 "U8" H 14200 3900 50  0000 C CNN
-F 1 "IFX9201SGAUMA1" H 14250 3800 50  0000 C CNN
-F 2 "backplane:IFX9201SGAUMA1" H 14050 3400 50  0001 C CNN
-F 3 "" H 14050 3400 50  0001 C CNN
-	1    14250 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L backplane_Library:1336G1 motorPwm1
+L backplane_Library:1336G1 motorControlOut1
 U 1 1 5C384A12
-P 1550 850
-F 0 "motorPwm1" H 1450 1150 50  0000 L CNN
-F 1 "1336G1" H 1400 1050 50  0000 L CNN
-F 2 "backplane:1336G1" H 1550 850 50  0001 C CNN
-F 3 "" H 1550 850 50  0001 C CNN
-	1    1550 850 
+P 1650 850
+F 0 "motorControlOut1" H 1550 1150 50  0000 L CNN
+F 1 "1336G1" H 1500 1050 50  0000 L CNN
+F 2 "backplane:1336G1" H 1650 850 50  0001 C CNN
+F 3 "" H 1650 850 50  0001 C CNN
+	1    1650 850 
 	1    0    0    -1  
 $EndComp
 $Comp
-L backplane_Library:1336G1 motorPwm2
+L backplane_Library:1336G1 motorControlOut2
 U 1 1 5C39427F
-P 1550 1350
-F 0 "motorPwm2" H 1450 1650 50  0000 L CNN
-F 1 "1336G1" H 1400 1550 50  0000 L CNN
-F 2 "backplane:1336G1" H 1550 1350 50  0001 C CNN
-F 3 "" H 1550 1350 50  0001 C CNN
-	1    1550 1350
+P 1650 1350
+F 0 "motorControlOut2" H 1550 1650 50  0000 L CNN
+F 1 "1336G1" H 1500 1550 50  0000 L CNN
+F 2 "backplane:1336G1" H 1650 1350 50  0001 C CNN
+F 3 "" H 1650 1350 50  0001 C CNN
+	1    1650 1350
 	1    0    0    -1  
 $EndComp
 $Comp
-L backplane_Library:1336G1 motorPwm3
+L backplane_Library:1336G1 motorControlOut3
 U 1 1 5C399185
-P 1550 1900
-F 0 "motorPwm3" H 1450 2200 50  0000 L CNN
-F 1 "1336G1" H 1400 2100 50  0000 L CNN
-F 2 "backplane:1336G1" H 1550 1900 50  0001 C CNN
-F 3 "" H 1550 1900 50  0001 C CNN
-	1    1550 1900
+P 1650 1900
+F 0 "motorControlOut3" H 1550 2200 50  0000 L CNN
+F 1 "1336G1" H 1500 2100 50  0000 L CNN
+F 2 "backplane:1336G1" H 1650 1900 50  0001 C CNN
+F 3 "" H 1650 1900 50  0001 C CNN
+	1    1650 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L backplane_Library:1336G1 motorPwm4
 U 1 1 5C39DFDA
-P 1550 2400
-F 0 "motorPwm4" H 1450 2700 50  0000 L CNN
-F 1 "1336G1" H 1400 2600 50  0000 L CNN
-F 2 "backplane:1336G1" H 1550 2400 50  0001 C CNN
-F 3 "" H 1550 2400 50  0001 C CNN
-	1    1550 2400
+P 1650 2400
+F 0 "motorPwm4" H 1550 2700 50  0000 L CNN
+F 1 "1336G1" H 1500 2600 50  0000 L CNN
+F 2 "backplane:1336G1" H 1650 2400 50  0001 C CNN
+F 3 "" H 1650 2400 50  0001 C CNN
+	1    1650 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 950  1550 950 
+	1350 950  1650 950 
 Wire Wire Line
-	1250 750  1250 950 
+	1350 750  1350 950 
 Wire Wire Line
-	1250 1450 1550 1450
+	1350 1450 1650 1450
 Wire Wire Line
-	1250 1200 1250 1450
+	1350 1200 1350 1450
 Wire Wire Line
-	1250 2500 1550 2500
+	1350 2500 1650 2500
 Wire Wire Line
-	1250 2100 1250 2500
+	1350 2100 1350 2500
 $Comp
 L backplane_Library:1336G1 motorGnd1
 U 1 1 5C3B2EA6
-P 2400 850
-F 0 "motorGnd1" H 2250 1150 50  0000 L CNN
-F 1 "1336G1" H 2250 1050 50  0000 L CNN
-F 2 "backplane:1336G1" H 2400 850 50  0001 C CNN
-F 3 "" H 2400 850 50  0001 C CNN
-	1    2400 850 
+P 2600 850
+F 0 "motorGnd1" H 2450 1150 50  0000 L CNN
+F 1 "1336G1" H 2450 1050 50  0000 L CNN
+F 2 "backplane:1336G1" H 2600 850 50  0001 C CNN
+F 3 "" H 2600 850 50  0001 C CNN
+	1    2600 850 
 	1    0    0    -1  
 $EndComp
 $Comp
 L backplane_Library:1336G1 motorGnd2
 U 1 1 5C3B8791
-P 2400 1400
-F 0 "motorGnd2" H 2250 1700 50  0000 L CNN
-F 1 "1336G1" H 2250 1600 50  0000 L CNN
-F 2 "backplane:1336G1" H 2400 1400 50  0001 C CNN
-F 3 "" H 2400 1400 50  0001 C CNN
-	1    2400 1400
+P 2600 1400
+F 0 "motorGnd2" H 2450 1700 50  0000 L CNN
+F 1 "1336G1" H 2450 1600 50  0000 L CNN
+F 2 "backplane:1336G1" H 2600 1400 50  0001 C CNN
+F 3 "" H 2600 1400 50  0001 C CNN
+	1    2600 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L backplane_Library:1336G1 motorGnd3
 U 1 1 5C3BDD7E
-P 2400 1900
-F 0 "motorGnd3" H 2250 2200 50  0000 L CNN
-F 1 "1336G1" H 2250 2100 50  0000 L CNN
-F 2 "backplane:1336G1" H 2400 1900 50  0001 C CNN
-F 3 "" H 2400 1900 50  0001 C CNN
-	1    2400 1900
+P 2600 1900
+F 0 "motorGnd3" H 2450 2200 50  0000 L CNN
+F 1 "1336G1" H 2450 2100 50  0000 L CNN
+F 2 "backplane:1336G1" H 2600 1900 50  0001 C CNN
+F 3 "" H 2600 1900 50  0001 C CNN
+	1    2600 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L backplane_Library:1336G1 motorGnd4
 U 1 1 5C3C329D
-P 2400 2400
-F 0 "motorGnd4" H 2250 2700 50  0000 L CNN
-F 1 "1336G1" H 2250 2600 50  0000 L CNN
-F 2 "backplane:1336G1" H 2400 2400 50  0001 C CNN
-F 3 "" H 2400 2400 50  0001 C CNN
-	1    2400 2400
+P 2600 2400
+F 0 "motorGnd4" H 2450 2700 50  0000 L CNN
+F 1 "1336G1" H 2450 2600 50  0000 L CNN
+F 2 "backplane:1336G1" H 2600 2400 50  0001 C CNN
+F 3 "" H 2600 2400 50  0001 C CNN
+	1    2600 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 2500 2400 2500
+	2400 2500 2600 2500
 Wire Wire Line
-	2200 2000 2400 2000
+	2400 2000 2600 2000
 Wire Wire Line
-	2200 1500 2400 1500
+	2400 1500 2600 1500
 Wire Wire Line
-	2200 950  2400 950 
+	2400 950  2600 950 
 $Comp
 L backplane_Library:1336G1 lipoIn1
 U 1 1 5C3FB8B7
@@ -1386,4 +1351,464 @@ F 3 "http://www.nxp.com/documents/data_sheet/PCA9685.pdf" H 18650 3550 50  0001 
 	1    19050 2850
 	1    0    0    -1  
 $EndComp
+$Comp
+L backplane_Library:PREC004SAAN-RC U?
+U 1 1 5C39E9EB
+P 6950 6050
+F 0 "U?" H 6950 6500 50  0000 L CNN
+F 1 "PREC004SAAN-RC" H 6650 6400 50  0000 L CNN
+F 2 "" H 7000 6050 50  0001 C CNN
+F 3 "" H 7000 6050 50  0001 C CNN
+	1    6950 6050
+	1    0    0    -1  
+$EndComp
+Text GLabel 6900 6150 3    50   Input ~ 0
+mcuSI
+Text GLabel 6800 6150 3    50   Input ~ 0
+mcuSO
+Text GLabel 7000 6150 3    50   Input ~ 0
+CSN
+Text GLabel 7100 6150 3    50   Input ~ 0
+SCK
+Wire Wire Line
+	6800 6150 6800 6050
+Wire Wire Line
+	6900 6150 6900 6050
+Wire Wire Line
+	7000 6150 7000 6050
+Wire Wire Line
+	7100 6150 7100 6050
+$Comp
+L backplane-rescue:PREC002SAAN-RC-backplane_Library motorControl1
+U 1 1 5C3C7094
+P 7800 6000
+F 0 "motorControl1" H 7800 6400 50  0000 L CNN
+F 1 "PREC002SAAN-RC" H 7500 6300 50  0000 L CNN
+F 2 "backplane:PREC002SAAN-RC" H 7800 6000 50  0001 C CNN
+F 3 "" H 7800 6000 50  0001 C CNN
+	1    7800 6000
+	1    0    0    -1  
+$EndComp
+Text GLabel 7850 6200 3    50   Input ~ 0
+motorPwm1
+Text GLabel 7750 6200 3    50   Input ~ 0
+motorDir1
+Wire Wire Line
+	7750 6200 7750 6000
+Wire Wire Line
+	7850 6200 7850 6000
+Wire Wire Line
+	1350 2000 1650 2000
+Wire Wire Line
+	1350 1650 1350 2000
+$Comp
+L backplane-rescue:PREC002SAAN-RC-backplane_Library motorControl2
+U 1 1 5C3E1BAE
+P 8750 6000
+F 0 "motorControl2" H 8750 6400 50  0000 L CNN
+F 1 "PREC002SAAN-RC" H 8450 6300 50  0000 L CNN
+F 2 "backplane:PREC002SAAN-RC" H 8750 6000 50  0001 C CNN
+F 3 "" H 8750 6000 50  0001 C CNN
+	1    8750 6000
+	1    0    0    -1  
+$EndComp
+Text GLabel 8800 6200 3    50   Input ~ 0
+motorPwm2
+Text GLabel 8700 6200 3    50   Input ~ 0
+motorDir2
+Wire Wire Line
+	8700 6200 8700 6000
+Wire Wire Line
+	8800 6200 8800 6000
+$Comp
+L backplane-rescue:PREC002SAAN-RC-backplane_Library motorControl3
+U 1 1 5C3E8014
+P 7750 7250
+F 0 "motorControl3" H 7750 7650 50  0000 L CNN
+F 1 "PREC002SAAN-RC" H 7450 7550 50  0000 L CNN
+F 2 "backplane:PREC002SAAN-RC" H 7750 7250 50  0001 C CNN
+F 3 "" H 7750 7250 50  0001 C CNN
+	1    7750 7250
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 7450 3    50   Input ~ 0
+motorPwm3
+Text GLabel 7700 7450 3    50   Input ~ 0
+motorDir3
+Wire Wire Line
+	7700 7450 7700 7250
+Wire Wire Line
+	7800 7450 7800 7250
+$Comp
+L backplane-rescue:PREC002SAAN-RC-backplane_Library motorControl?
+U 1 1 5C3EE6D7
+P 8750 7250
+F 0 "motorControl?" H 8750 7650 50  0000 L CNN
+F 1 "PREC002SAAN-RC" H 8450 7550 50  0000 L CNN
+F 2 "backplane:PREC002SAAN-RC" H 8750 7250 50  0001 C CNN
+F 3 "" H 8750 7250 50  0001 C CNN
+	1    8750 7250
+	1    0    0    -1  
+$EndComp
+Text GLabel 8800 7450 3    50   Input ~ 0
+motorPwm4
+Text GLabel 8700 7450 3    50   Input ~ 0
+motorDir4
+Wire Wire Line
+	8700 7450 8700 7250
+Wire Wire Line
+	8800 7450 8800 7250
+Text GLabel 2550 8600 2    50   Input ~ 0
+motorPwm1
+Text GLabel 1450 9000 0    50   Input ~ 0
+motorControlOut1
+Text GLabel 1450 8600 0    50   Input ~ 0
+motorDir1
+Text GLabel 1450 8900 0    50   Input ~ 0
++14v8
+Text GLabel 2550 8900 2    50   Input ~ 0
+CSN
+Text GLabel 2550 8800 2    50   Input ~ 0
+SCK
+Text GLabel 2550 9000 2    50   Input ~ 0
+mcuSI
+Text GLabel 2550 9100 2    50   Input ~ 0
+motorGnd1
+Text GLabel 1450 8800 0    50   Input ~ 0
+SO1
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C40012C
+P 900 8700
+F 0 "#PWR?" H 900 8550 50  0001 C CNN
+F 1 "+3.3V" H 915 8873 50  0000 C CNN
+F 2 "" H 900 8700 50  0001 C CNN
+F 3 "" H 900 8700 50  0001 C CNN
+	1    900  8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C4001B5
+P 2000 9350
+F 0 "#PWR?" H 2000 9100 50  0001 C CNN
+F 1 "GND" H 2005 9177 50  0000 C CNN
+F 2 "" H 2000 9350 50  0001 C CNN
+F 3 "" H 2000 9350 50  0001 C CNN
+	1    2000 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 9250 2000 9350
+Wire Wire Line
+	1600 9100 1600 9250
+Wire Wire Line
+	1600 9250 2000 9250
+Wire Wire Line
+	1600 9000 1450 9000
+Wire Wire Line
+	1600 8900 1450 8900
+Wire Wire Line
+	1600 8800 1450 8800
+Wire Wire Line
+	2400 9000 2550 9000
+Wire Wire Line
+	2400 9100 2550 9100
+Wire Wire Line
+	2400 8900 2550 8900
+Wire Wire Line
+	2400 8800 2550 8800
+Wire Wire Line
+	1450 8600 1600 8600
+Wire Wire Line
+	1600 8700 900  8700
+$Comp
+L power:GND #PWR?
+U 1 1 5C4507EE
+P 3000 8700
+F 0 "#PWR?" H 3000 8450 50  0001 C CNN
+F 1 "GND" H 3005 8527 50  0000 C CNN
+F 2 "" H 3000 8700 50  0001 C CNN
+F 3 "" H 3000 8700 50  0001 C CNN
+	1    3000 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 8700 3000 8700
+Wire Wire Line
+	2400 8600 2550 8600
+Connection ~ 2000 9250
+$Comp
+L backplane_Library:IFX9201SGAUMA1 U?
+U 1 1 5C47DAB6
+P 4600 8800
+F 0 "U?" H 4550 9300 50  0000 C CNN
+F 1 "IFX9201SGAUMA1" H 4600 9200 50  0000 C CNN
+F 2 "backplane:IFX9201SGAUMA1" H 4400 8800 50  0001 C CNN
+F 3 "" H 4400 8800 50  0001 C CNN
+	1    4600 8800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5150 8600 2    50   Input ~ 0
+motorPwm2
+Text GLabel 4050 9000 0    50   Input ~ 0
+motorControlOut2
+Text GLabel 4050 8600 0    50   Input ~ 0
+motorDir2
+Text GLabel 4050 8900 0    50   Input ~ 0
++14v8
+Text GLabel 5150 8900 2    50   Input ~ 0
+CSN
+Text GLabel 5150 8800 2    50   Input ~ 0
+SCK
+Text GLabel 5150 9000 2    50   Input ~ 0
+SO1
+Text GLabel 5150 9100 2    50   Input ~ 0
+motorGnd2
+Text GLabel 4050 8800 0    50   Input ~ 0
+SO2
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C47DAC6
+P 3500 8700
+F 0 "#PWR?" H 3500 8550 50  0001 C CNN
+F 1 "+3.3V" H 3515 8873 50  0000 C CNN
+F 2 "" H 3500 8700 50  0001 C CNN
+F 3 "" H 3500 8700 50  0001 C CNN
+	1    3500 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C47DACC
+P 4600 9350
+F 0 "#PWR?" H 4600 9100 50  0001 C CNN
+F 1 "GND" H 4605 9177 50  0000 C CNN
+F 2 "" H 4600 9350 50  0001 C CNN
+F 3 "" H 4600 9350 50  0001 C CNN
+	1    4600 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 9250 4600 9350
+Wire Wire Line
+	4200 9100 4200 9250
+Wire Wire Line
+	4200 9250 4600 9250
+Connection ~ 4600 9250
+Wire Wire Line
+	4200 9000 4050 9000
+Wire Wire Line
+	4200 8900 4050 8900
+Wire Wire Line
+	4200 8800 4050 8800
+Wire Wire Line
+	5000 9000 5150 9000
+Wire Wire Line
+	5000 9100 5150 9100
+Wire Wire Line
+	5000 8900 5150 8900
+Wire Wire Line
+	5000 8800 5150 8800
+Wire Wire Line
+	4050 8600 4200 8600
+Wire Wire Line
+	4200 8700 3500 8700
+$Comp
+L power:GND #PWR?
+U 1 1 5C47DADF
+P 5600 8700
+F 0 "#PWR?" H 5600 8450 50  0001 C CNN
+F 1 "GND" H 5605 8527 50  0000 C CNN
+F 2 "" H 5600 8700 50  0001 C CNN
+F 3 "" H 5600 8700 50  0001 C CNN
+	1    5600 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 8700 5600 8700
+Wire Wire Line
+	5000 8600 5150 8600
+$Comp
+L backplane_Library:IFX9201SGAUMA1 U?
+U 1 1 5C48759E
+P 1950 10300
+F 0 "U?" H 1900 10800 50  0000 C CNN
+F 1 "IFX9201SGAUMA1" H 1950 10700 50  0000 C CNN
+F 2 "backplane:IFX9201SGAUMA1" H 1750 10300 50  0001 C CNN
+F 3 "" H 1750 10300 50  0001 C CNN
+	1    1950 10300
+	1    0    0    -1  
+$EndComp
+Text GLabel 2500 10100 2    50   Input ~ 0
+motorPwm3
+Text GLabel 1400 10500 0    50   Input ~ 0
+motorControlOut3
+Text GLabel 1400 10100 0    50   Input ~ 0
+motorDir3
+Text GLabel 1400 10400 0    50   Input ~ 0
++14v8
+Text GLabel 2500 10400 2    50   Input ~ 0
+CSN
+Text GLabel 2500 10300 2    50   Input ~ 0
+SCK
+Text GLabel 2500 10500 2    50   Input ~ 0
+SO2
+Text GLabel 2500 10600 2    50   Input ~ 0
+motorGnd3
+Text GLabel 1400 10300 0    50   Input ~ 0
+SO3
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C4875AE
+P 850 10200
+F 0 "#PWR?" H 850 10050 50  0001 C CNN
+F 1 "+3.3V" H 865 10373 50  0000 C CNN
+F 2 "" H 850 10200 50  0001 C CNN
+F 3 "" H 850 10200 50  0001 C CNN
+	1    850  10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C4875B4
+P 1950 10850
+F 0 "#PWR?" H 1950 10600 50  0001 C CNN
+F 1 "GND" H 1955 10677 50  0000 C CNN
+F 2 "" H 1950 10850 50  0001 C CNN
+F 3 "" H 1950 10850 50  0001 C CNN
+	1    1950 10850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 10750 1950 10850
+Wire Wire Line
+	1550 10600 1550 10750
+Wire Wire Line
+	1550 10750 1950 10750
+Connection ~ 1950 10750
+Wire Wire Line
+	1550 10500 1400 10500
+Wire Wire Line
+	1550 10400 1400 10400
+Wire Wire Line
+	1550 10300 1400 10300
+Wire Wire Line
+	2350 10500 2500 10500
+Wire Wire Line
+	2350 10600 2500 10600
+Wire Wire Line
+	2350 10400 2500 10400
+Wire Wire Line
+	2350 10300 2500 10300
+Wire Wire Line
+	1400 10100 1550 10100
+Wire Wire Line
+	1550 10200 850  10200
+$Comp
+L power:GND #PWR?
+U 1 1 5C4875C7
+P 2950 10200
+F 0 "#PWR?" H 2950 9950 50  0001 C CNN
+F 1 "GND" H 2955 10027 50  0000 C CNN
+F 2 "" H 2950 10200 50  0001 C CNN
+F 3 "" H 2950 10200 50  0001 C CNN
+	1    2950 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 10200 2950 10200
+Wire Wire Line
+	2350 10100 2500 10100
+$Comp
+L backplane_Library:IFX9201SGAUMA1 U?
+U 1 1 5C492E81
+P 4700 10300
+F 0 "U?" H 4650 10800 50  0000 C CNN
+F 1 "IFX9201SGAUMA1" H 4700 10700 50  0000 C CNN
+F 2 "backplane:IFX9201SGAUMA1" H 4500 10300 50  0001 C CNN
+F 3 "" H 4500 10300 50  0001 C CNN
+	1    4700 10300
+	1    0    0    -1  
+$EndComp
+Text GLabel 5250 10100 2    50   Input ~ 0
+motorPwm4
+Text GLabel 4150 10500 0    50   Input ~ 0
+motorControlOut4
+Text GLabel 4150 10100 0    50   Input ~ 0
+motorDir4
+Text GLabel 4150 10400 0    50   Input ~ 0
++14v8
+Text GLabel 5250 10400 2    50   Input ~ 0
+CSN
+Text GLabel 5250 10300 2    50   Input ~ 0
+SCK
+Text GLabel 5250 10500 2    50   Input ~ 0
+SO3
+Text GLabel 5250 10600 2    50   Input ~ 0
+motorGnd4
+Text GLabel 4150 10300 0    50   Input ~ 0
+mcuSO
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C492E91
+P 3600 10200
+F 0 "#PWR?" H 3600 10050 50  0001 C CNN
+F 1 "+3.3V" H 3615 10373 50  0000 C CNN
+F 2 "" H 3600 10200 50  0001 C CNN
+F 3 "" H 3600 10200 50  0001 C CNN
+	1    3600 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C492E97
+P 4700 10850
+F 0 "#PWR?" H 4700 10600 50  0001 C CNN
+F 1 "GND" H 4705 10677 50  0000 C CNN
+F 2 "" H 4700 10850 50  0001 C CNN
+F 3 "" H 4700 10850 50  0001 C CNN
+	1    4700 10850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 10750 4700 10850
+Wire Wire Line
+	4300 10600 4300 10750
+Wire Wire Line
+	4300 10750 4700 10750
+Connection ~ 4700 10750
+Wire Wire Line
+	4300 10500 4150 10500
+Wire Wire Line
+	4300 10400 4150 10400
+Wire Wire Line
+	4300 10300 4150 10300
+Wire Wire Line
+	5100 10500 5250 10500
+Wire Wire Line
+	5100 10600 5250 10600
+Wire Wire Line
+	5100 10400 5250 10400
+Wire Wire Line
+	5100 10300 5250 10300
+Wire Wire Line
+	4150 10100 4300 10100
+Wire Wire Line
+	4300 10200 3600 10200
+$Comp
+L power:GND #PWR?
+U 1 1 5C492EAA
+P 5700 10200
+F 0 "#PWR?" H 5700 9950 50  0001 C CNN
+F 1 "GND" H 5705 10027 50  0000 C CNN
+F 2 "" H 5700 10200 50  0001 C CNN
+F 3 "" H 5700 10200 50  0001 C CNN
+	1    5700 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 10200 5700 10200
+Wire Wire Line
+	5100 10100 5250 10100
 $EndSCHEMATC
