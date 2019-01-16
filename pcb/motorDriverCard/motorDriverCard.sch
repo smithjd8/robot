@@ -117,36 +117,6 @@ jst connectors that support andymark and builda motors
 Text Notes 2450 2350 0    50   ~ 0
 jst connectors that support textrix and rev motors
 $Comp
-L motorDriverCard-rescue:PREC002SAAN-RC-backplane_Library-backplane-rescue encoderpins1
-U 1 1 5C4C6E55
-P 800 3100
-F 0 "encoderpins1" H 800 3500 50  0000 L CNN
-F 1 "PREC002SAAN-RC" H 500 3400 50  0000 L CNN
-F 2 "backplane:PREC002SAAN-RC" H 800 3100 50  0001 C CNN
-F 3 "" H 800 3100 50  0001 C CNN
-	1    800  3100
-	1    0    0    -1  
-$EndComp
-Text GLabel 850  3200 3    50   Input ~ 0
-Motor1EncoderB
-Text GLabel 750  3200 3    50   Input ~ 0
-Motor1EncoderA
-$Comp
-L motorDriverCard-rescue:PREC002SAAN-RC-backplane_Library-backplane-rescue encoderpins2
-U 1 1 5C4D0A4E
-P 1600 3100
-F 0 "encoderpins2" H 1600 3500 50  0000 L CNN
-F 1 "PREC002SAAN-RC" H 1300 3400 50  0000 L CNN
-F 2 "backplane:PREC002SAAN-RC" H 1600 3100 50  0001 C CNN
-F 3 "" H 1600 3100 50  0001 C CNN
-	1    1600 3100
-	1    0    0    -1  
-$EndComp
-Text GLabel 1650 3200 3    50   Input ~ 0
-Motor1EncoderB_3v3
-Text GLabel 1550 3200 3    50   Input ~ 0
-Motor1EncoderA_3v3
-$Comp
 L motorDriverCard-rescue:74LVCH2T45DC,125-backplane_Library-backplane-rescue levelShift2
 U 1 1 5C50CE3B
 P 6550 1600
@@ -219,12 +189,12 @@ Wire Wire Line
 $Comp
 L backplane_Library:IFX9201SGAUMA1 U1
 U 1 1 5C375057
-P 3150 5050
-F 0 "U1" H 3100 5550 50  0000 C CNN
-F 1 "IFX9201SGAUMA1" H 3150 5450 50  0000 C CNN
-F 2 "backplane:IFX9201SGAUMA1" H 2950 5050 50  0001 C CNN
-F 3 "" H 2950 5050 50  0001 C CNN
-	1    3150 5050
+P 3050 4550
+F 0 "U1" H 3000 5050 50  0000 C CNN
+F 1 "IFX9201SGAUMA1" H 3050 4950 50  0000 C CNN
+F 2 "backplane:IFX9201SGAUMA1" H 2850 4550 50  0001 C CNN
+F 3 "" H 2850 4550 50  0001 C CNN
+	1    3050 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -276,154 +246,133 @@ Wire Wire Line
 	5700 3850 5700 3750
 Wire Wire Line
 	5800 3850 5800 3750
-$Comp
-L motorDriverCard-rescue:PREC002SAAN-RC-backplane_Library-backplane-rescue motorControl1
-U 1 1 5C3C7094
-P 6500 3700
-F 0 "motorControl1" H 6500 4100 50  0000 L CNN
-F 1 "PREC002SAAN-RC" H 6200 4000 50  0000 L CNN
-F 2 "backplane:PREC002SAAN-RC" H 6500 3700 50  0001 C CNN
-F 3 "" H 6500 3700 50  0001 C CNN
-	1    6500 3700
-	1    0    0    -1  
-$EndComp
-Text GLabel 6550 3900 3    50   Input ~ 0
+Text GLabel 3600 4350 2    50   Input ~ 0
 motorPwm1
-Text GLabel 6450 3900 3    50   Input ~ 0
-motorDir1
-Wire Wire Line
-	6450 3900 6450 3700
-Wire Wire Line
-	6550 3900 6550 3700
-Text GLabel 3700 4850 2    50   Input ~ 0
-motorPwm1
-Text GLabel 2600 5250 0    50   Input ~ 0
+Text GLabel 2500 4750 0    50   Input ~ 0
 motorControlOut1
-Text GLabel 2600 4850 0    50   Input ~ 0
+Text GLabel 2500 4350 0    50   Input ~ 0
 motorDir1
-Text GLabel 850  5150 0    50   Input ~ 0
+Text GLabel 750  4650 0    50   Input ~ 0
 +14v8
-Text GLabel 3700 5150 2    50   Input ~ 0
+Text GLabel 3600 4650 2    50   Input ~ 0
 CSN
-Text GLabel 3700 5050 2    50   Input ~ 0
+Text GLabel 3600 4550 2    50   Input ~ 0
 SCK
-Text GLabel 3700 5250 2    50   Input ~ 0
+Text GLabel 3600 4750 2    50   Input ~ 0
 mcuSI
-Text GLabel 3700 5350 2    50   Input ~ 0
+Text GLabel 3600 4850 2    50   Input ~ 0
 motorGnd1
-Text GLabel 2600 5050 0    50   Input ~ 0
+Text GLabel 2500 4550 0    50   Input ~ 0
 mcuSO
 $Comp
 L power:+3.3V #PWR03
 U 1 1 5C40012C
-P 2050 4950
-F 0 "#PWR03" H 2050 4800 50  0001 C CNN
-F 1 "+3.3V" H 2065 5123 50  0000 C CNN
-F 2 "" H 2050 4950 50  0001 C CNN
-F 3 "" H 2050 4950 50  0001 C CNN
-	1    2050 4950
+P 1950 4450
+F 0 "#PWR03" H 1950 4300 50  0001 C CNN
+F 1 "+3.3V" H 1965 4623 50  0000 C CNN
+F 2 "" H 1950 4450 50  0001 C CNN
+F 3 "" H 1950 4450 50  0001 C CNN
+	1    1950 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 5C4001B5
-P 3150 5600
-F 0 "#PWR05" H 3150 5350 50  0001 C CNN
-F 1 "GND" H 3155 5427 50  0000 C CNN
-F 2 "" H 3150 5600 50  0001 C CNN
-F 3 "" H 3150 5600 50  0001 C CNN
-	1    3150 5600
+P 3050 5100
+F 0 "#PWR05" H 3050 4850 50  0001 C CNN
+F 1 "GND" H 3055 4927 50  0000 C CNN
+F 2 "" H 3050 5100 50  0001 C CNN
+F 3 "" H 3050 5100 50  0001 C CNN
+	1    3050 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 5500 3150 5600
+	3050 5000 3050 5100
 Wire Wire Line
-	2750 5350 2750 5500
+	2650 4850 2650 5000
 Wire Wire Line
-	2750 5500 3150 5500
+	2650 5000 3050 5000
 Wire Wire Line
-	2750 5250 2600 5250
+	2650 4750 2500 4750
 Wire Wire Line
-	2750 5050 2600 5050
+	2650 4550 2500 4550
 Wire Wire Line
-	3550 5250 3700 5250
+	3450 4750 3600 4750
 Wire Wire Line
-	3550 5350 3700 5350
+	3450 4850 3600 4850
 Wire Wire Line
-	3550 5150 3700 5150
+	3450 4650 3600 4650
 Wire Wire Line
-	3550 5050 3700 5050
+	3450 4550 3600 4550
 Wire Wire Line
-	2600 4850 2750 4850
+	2500 4350 2650 4350
 Wire Wire Line
-	2750 4950 2050 4950
+	2650 4450 1950 4450
 $Comp
 L power:GND #PWR07
 U 1 1 5C4507EE
-P 4150 4950
-F 0 "#PWR07" H 4150 4700 50  0001 C CNN
-F 1 "GND" H 4155 4777 50  0000 C CNN
-F 2 "" H 4150 4950 50  0001 C CNN
-F 3 "" H 4150 4950 50  0001 C CNN
-	1    4150 4950
+P 4050 4450
+F 0 "#PWR07" H 4050 4200 50  0001 C CNN
+F 1 "GND" H 4055 4277 50  0000 C CNN
+F 2 "" H 4050 4450 50  0001 C CNN
+F 3 "" H 4050 4450 50  0001 C CNN
+	1    4050 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 4950 4150 4950
+	3450 4450 4050 4450
 Wire Wire Line
-	3550 4850 3700 4850
-Connection ~ 3150 5500
+	3450 4350 3600 4350
+Connection ~ 3050 5000
 $Comp
 L Device:CP C1
 U 1 1 5C449EED
-P 950 5300
-F 0 "C1" H 1068 5346 50  0000 L CNN
-F 1 "100uF" H 1068 5255 50  0000 L CNN
-F 2 "backplane:865080445010" H 988 5150 50  0001 C CNN
-F 3 "~" H 950 5300 50  0001 C CNN
-	1    950  5300
+P 850 4800
+F 0 "C1" H 968 4846 50  0000 L CNN
+F 1 "100uF" H 968 4755 50  0000 L CNN
+F 2 "backplane:865080445010" H 888 4650 50  0001 C CNN
+F 3 "~" H 850 4800 50  0001 C CNN
+	1    850  4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP C3
 U 1 1 5C44A12B
-P 1450 5300
-F 0 "C3" H 1568 5346 50  0000 L CNN
-F 1 "100nF" H 1568 5255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1488 5150 50  0001 C CNN
-F 3 "~" H 1450 5300 50  0001 C CNN
-	1    1450 5300
+P 1350 4800
+F 0 "C3" H 1468 4846 50  0000 L CNN
+F 1 "100nF" H 1468 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1388 4650 50  0001 C CNN
+F 3 "~" H 1350 4800 50  0001 C CNN
+	1    1350 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	850  5150 950  5150
-Connection ~ 950  5150
+	750  4650 850  4650
+Connection ~ 850  4650
 Wire Wire Line
-	950  5450 1100 5450
+	850  4950 1000 4950
 $Comp
 L power:GND #PWR01
 U 1 1 5C4A49FD
-P 1100 5500
-F 0 "#PWR01" H 1100 5250 50  0001 C CNN
-F 1 "GND" H 1105 5327 50  0000 C CNN
-F 2 "" H 1100 5500 50  0001 C CNN
-F 3 "" H 1100 5500 50  0001 C CNN
-	1    1100 5500
+P 1000 5000
+F 0 "#PWR01" H 1000 4750 50  0001 C CNN
+F 1 "GND" H 1005 4827 50  0000 C CNN
+F 2 "" H 1000 5000 50  0001 C CNN
+F 3 "" H 1000 5000 50  0001 C CNN
+	1    1000 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 5500 1100 5450
-Connection ~ 1100 5450
+	1000 5000 1000 4950
+Connection ~ 1000 4950
 Wire Wire Line
-	950  5150 1450 5150
+	850  4650 1350 4650
 Wire Wire Line
-	1100 5450 1450 5450
+	1000 4950 1350 4950
 Text GLabel 1150 1650 3    50   Input ~ 0
 motorGnd1
-Text Notes 2750 4400 0    50   ~ 0
+Text Notes 2650 3900 0    50   ~ 0
 Motor driver circuitry\n
-Text Notes 600  2550 0    50   ~ 0
-Encoder pins to mcu
 Text Notes 600  900  0    50   ~ 0
 Motor controller outputs
 Text Notes 5350 3150 0    50   ~ 0
@@ -448,137 +397,185 @@ Wire Wire Line
 Wire Wire Line
 	1150 1650 1150 1550
 Wire Wire Line
-	1550 3200 1550 3100
-Wire Wire Line
-	1650 3200 1650 3100
-Wire Wire Line
-	750  3200 750  3100
-Wire Wire Line
-	850  3200 850  3100
-Wire Wire Line
 	750  1450 750  1550
 Wire Wire Line
-	2750 5150 1450 5150
-Connection ~ 1450 5150
-Text Notes 950  6700 0    50   ~ 0
+	2650 4650 1350 4650
+Connection ~ 1350 4650
+Text Notes 850  5600 0    50   ~ 0
 power to card from backplane
 $Comp
-L backplane_Library:TSW-108-08-T-S-RA U2
-U 1 1 5C555696
-P 1500 6850
-F 0 "U2" H 1495 7015 50  0000 C CNN
-F 1 "TSW-108-08-T-S-RA" H 1495 6924 50  0000 C CNN
-F 2 "backplane:TSW-108-08-T-S-RA" H 1450 7100 50  0001 C CNN
-F 3 "" H 1450 7100 50  0001 C CNN
-	1    1500 6850
+L backplane_Library:PEC07DBBN U2
+U 1 1 5C442E74
+P 1400 6500
+F 0 "U2" H 1778 6546 50  0000 L CNN
+F 1 "PEC07DBBN" H 1778 6455 50  0000 L CNN
+F 2 "backplane:PEC07DBBN" H 1400 7100 50  0001 C CNN
+F 3 "" H 1400 7100 50  0001 C CNN
+	1    1400 6500
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+15V #PWR0101
-U 1 1 5C555725
-P 1450 7400
-F 0 "#PWR0101" H 1450 7250 50  0001 C CNN
-F 1 "+15V" H 1465 7573 50  0000 C CNN
-F 2 "" H 1450 7400 50  0001 C CNN
-F 3 "" H 1450 7400 50  0001 C CNN
-	1    1450 7400
+L power:+15V #PWR013
+U 1 1 5C442EF2
+P 1350 6900
+F 0 "#PWR013" H 1350 6750 50  0001 C CNN
+F 1 "+15V" H 1365 7073 50  0000 C CNN
+F 2 "" H 1350 6900 50  0001 C CNN
+F 3 "" H 1350 6900 50  0001 C CNN
+	1    1350 6900
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3.3V #PWR0102
-U 1 1 5C55591F
-P 1850 7400
-F 0 "#PWR0102" H 1850 7250 50  0001 C CNN
-F 1 "+3.3V" H 1865 7573 50  0000 C CNN
-F 2 "" H 1850 7400 50  0001 C CNN
-F 3 "" H 1850 7400 50  0001 C CNN
-	1    1850 7400
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+5V #PWR0103
-U 1 1 5C555925
-P 1650 7400
-F 0 "#PWR0103" H 1650 7250 50  0001 C CNN
-F 1 "+5V" H 1665 7573 50  0000 C CNN
-F 2 "" H 1650 7400 50  0001 C CNN
-F 3 "" H 1650 7400 50  0001 C CNN
-	1    1650 7400
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 5C555931
-P 2050 7400
-F 0 "#PWR0104" H 2050 7150 50  0001 C CNN
-F 1 "GND" H 2055 7227 50  0000 C CNN
-F 2 "" H 2050 7400 50  0001 C CNN
-F 3 "" H 2050 7400 50  0001 C CNN
-	1    2050 7400
+L power:+3.3V #PWR06
+U 1 1 5C442EF8
+P 1150 5850
+F 0 "#PWR06" H 1150 5700 50  0001 C CNN
+F 1 "+3.3V" H 1165 6023 50  0000 C CNN
+F 2 "" H 1150 5850 50  0001 C CNN
+F 3 "" H 1150 5850 50  0001 C CNN
+	1    1150 5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0105
-U 1 1 5C556C8F
-P 2250 7400
-F 0 "#PWR0105" H 2250 7150 50  0001 C CNN
-F 1 "GND" H 2255 7227 50  0000 C CNN
-F 2 "" H 2250 7400 50  0001 C CNN
-F 3 "" H 2250 7400 50  0001 C CNN
-	1    2250 7400
+L power:+5V #PWR08
+U 1 1 5C442EFE
+P 1150 6900
+F 0 "#PWR08" H 1150 6750 50  0001 C CNN
+F 1 "+5V" H 1165 7073 50  0000 C CNN
+F 2 "" H 1150 6900 50  0001 C CNN
+F 3 "" H 1150 6900 50  0001 C CNN
+	1    1150 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5C442F04
+P 950 6900
+F 0 "#PWR04" H 950 6650 50  0001 C CNN
+F 1 "GND" H 955 6727 50  0000 C CNN
+F 2 "" H 950 6900 50  0001 C CNN
+F 3 "" H 950 6900 50  0001 C CNN
+	1    950  6900
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+15V #PWR0106
-U 1 1 5C55ED33
-P 1250 7400
-F 0 "#PWR0106" H 1250 7250 50  0001 C CNN
-F 1 "+15V" H 1265 7573 50  0000 C CNN
-F 2 "" H 1250 7400 50  0001 C CNN
-F 3 "" H 1250 7400 50  0001 C CNN
-	1    1250 7400
+L power:GND #PWR02
+U 1 1 5C442F0A
+P 950 5850
+F 0 "#PWR02" H 950 5600 50  0001 C CNN
+F 1 "GND" H 955 5677 50  0000 C CNN
+F 2 "" H 950 5850 50  0001 C CNN
+F 3 "" H 950 5850 50  0001 C CNN
+	1    950  5850
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2250 7400 2250 7100
-Wire Wire Line
-	2250 7100 1850 7100
-Wire Wire Line
-	2050 7400 2050 7200
-Wire Wire Line
-	2050 7200 1750 7200
-Wire Wire Line
-	1750 7200 1750 7100
-Wire Wire Line
-	1850 7400 1850 7250
-Wire Wire Line
-	1850 7250 1650 7250
-Wire Wire Line
-	1650 7250 1650 7100
-Wire Wire Line
-	1650 7400 1550 7400
-Wire Wire Line
-	1550 7400 1550 7100
-Wire Wire Line
-	1450 7400 1450 7100
-Wire Wire Line
-	1250 7400 1250 7250
-Wire Wire Line
-	1250 7250 1350 7250
-Wire Wire Line
-	1350 7250 1350 7100
-Text GLabel 950  7300 3    50   Input ~ 0
+$Comp
+L power:+15V #PWR014
+U 1 1 5C442F10
+P 1400 5850
+F 0 "#PWR014" H 1400 5700 50  0001 C CNN
+F 1 "+15V" H 1415 6023 50  0000 C CNN
+F 2 "" H 1400 5850 50  0001 C CNN
+F 3 "" H 1400 5850 50  0001 C CNN
+	1    1400 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 1600 5850 1    50   Input ~ 0
 sda
-Wire Wire Line
-	950  7300 950  7100
-Wire Wire Line
-	950  7100 1150 7100
-Text GLabel 1100 7300 3    50   Input ~ 0
+Text GLabel 1750 5850 1    50   Input ~ 0
 scl
+Text GLabel 1900 6100 1    50   Input ~ 0
+motorPwm1
+Text GLabel 2000 6100 1    50   Input ~ 0
+motorDir1
+Text GLabel 1600 6950 3    50   Input ~ 0
+Motor1EncoderB_3v3
+Text GLabel 1500 6950 3    50   Input ~ 0
+Motor1EncoderA_3v3
 Wire Wire Line
-	1100 7300 1100 7150
+	950  6250 1100 6250
 Wire Wire Line
-	1100 7150 1250 7150
+	1100 6250 1100 6300
 Wire Wire Line
-	1250 7150 1250 7100
+	1100 6750 1100 6700
+Wire Wire Line
+	1150 6300 1200 6300
+Wire Wire Line
+	1400 5850 1300 5850
+Wire Wire Line
+	950  6900 950  6750
+Wire Wire Line
+	950  6750 1100 6750
+Wire Wire Line
+	1150 6900 1150 6700
+Wire Wire Line
+	1150 6700 1200 6700
+Wire Wire Line
+	1350 6900 1300 6900
+Wire Wire Line
+	1300 6900 1300 6700
+Wire Wire Line
+	1600 5850 1600 5900
+Wire Wire Line
+	1600 5900 1400 5900
+Wire Wire Line
+	1750 5850 1700 5850
+Wire Wire Line
+	1700 6150 1500 6150
+Wire Wire Line
+	1500 6150 1500 6300
+Wire Wire Line
+	950  5850 950  6250
+Wire Wire Line
+	1150 5850 1150 6300
+Wire Wire Line
+	1300 5850 1300 6300
+Wire Wire Line
+	1400 5900 1400 6300
+Wire Wire Line
+	1700 5850 1700 6150
+Wire Wire Line
+	1900 6100 1900 6150
+Wire Wire Line
+	1900 6150 1750 6150
+Wire Wire Line
+	1750 6150 1750 6200
+Wire Wire Line
+	1750 6200 1600 6200
+Wire Wire Line
+	1600 6200 1600 6300
+Wire Wire Line
+	2000 6100 2000 6200
+Wire Wire Line
+	2000 6200 1800 6200
+Wire Wire Line
+	1800 6200 1800 6300
+Wire Wire Line
+	1800 6300 1700 6300
+Wire Wire Line
+	1500 6950 1500 6900
+Wire Wire Line
+	1500 6900 1400 6900
+Wire Wire Line
+	1400 6900 1400 6700
+Wire Wire Line
+	1600 6950 1600 6850
+Wire Wire Line
+	1600 6850 1500 6850
+Wire Wire Line
+	1500 6850 1500 6700
+Text GLabel 1850 6950 3    50   Input ~ 0
+Motor1EncoderB
+Text GLabel 1750 6950 3    50   Input ~ 0
+Motor1EncoderA
+Wire Wire Line
+	1750 6950 1750 6800
+Wire Wire Line
+	1750 6800 1600 6800
+Wire Wire Line
+	1600 6800 1600 6700
+Wire Wire Line
+	1850 6950 1850 6700
+Wire Wire Line
+	1850 6700 1700 6700
 $EndSCHEMATC
