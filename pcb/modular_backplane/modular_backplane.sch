@@ -1028,17 +1028,6 @@ F 3 "" H 3500 9450 50  0001 C CNN
 	1    3500 9450
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+15V #PWR0109
-U 1 1 5CA778F2
-P 1950 5300
-F 0 "#PWR0109" H 1950 5150 50  0001 C CNN
-F 1 "+15V" H 1965 5473 50  0000 C CNN
-F 2 "" H 1950 5300 50  0001 C CNN
-F 3 "" H 1950 5300 50  0001 C CNN
-	1    1950 5300
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1950 5200 1950 5300
 $Comp
@@ -2686,4 +2675,500 @@ F 3 "" H 11900 8650 50  0001 C CNN
 	1    12850 8100
 	0    1    1    0   
 $EndComp
+$Comp
+L backplane_Library:AP6503SP-13 rail12v1
+U 1 1 5C44F879
+P 13300 1850
+F 0 "rail12v1" H 13475 2275 50  0000 C CNN
+F 1 "AP6503SP-13" H 13475 2184 50  0000 C CNN
+F 2 "backplane:AP6503SP-13" H 13500 2150 50  0001 C CNN
+F 3 "" H 13500 2150 50  0001 C CNN
+	1    13300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 5C44F880
+P 14400 1600
+F 0 "R20" H 14470 1646 50  0000 L CNN
+F 1 "100K" H 14470 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 14330 1600 50  0001 C CNN
+F 3 "~" H 14400 1600 50  0001 C CNN
+	1    14400 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14400 1750 13900 1750
+$Comp
+L Device:R R18
+U 1 1 5C44F888
+P 12350 2950
+F 0 "R18" H 12420 2996 50  0000 L CNN
+F 1 "10K" H 12420 2905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 12280 2950 50  0001 C CNN
+F 3 "~" H 12350 2950 50  0001 C CNN
+	1    12350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR081
+U 1 1 5C44F88F
+P 12350 3150
+F 0 "#PWR081" H 12350 2900 50  0001 C CNN
+F 1 "GND" H 12355 2977 50  0000 C CNN
+F 2 "" H 12350 3150 50  0001 C CNN
+F 3 "" H 12350 3150 50  0001 C CNN
+	1    12350 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 3150 12350 3100
+$Comp
+L Device:R R17
+U 1 1 5C44F896
+P 12350 2600
+F 0 "R17" H 12420 2646 50  0000 L CNN
+F 1 "120K" H 12420 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 12280 2600 50  0001 C CNN
+F 3 "~" H 12350 2600 50  0001 C CNN
+	1    12350 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 2750 12350 2800
+$Comp
+L power:GND #PWR082
+U 1 1 5C44F89E
+P 13450 2250
+F 0 "#PWR082" H 13450 2000 50  0001 C CNN
+F 1 "GND" H 13455 2077 50  0000 C CNN
+F 2 "" H 13450 2250 50  0001 C CNN
+F 3 "" H 13450 2250 50  0001 C CNN
+	1    13450 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13450 2250 13450 2100
+$Comp
+L Device:CP C14
+U 1 1 5C44F8A5
+P 14050 1450
+F 0 "C14" H 14168 1496 50  0000 L CNN
+F 1 "100nF" H 14168 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 14088 1300 50  0001 C CNN
+F 3 "~" H 14050 1450 50  0001 C CNN
+	1    14050 1450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13900 1650 14050 1650
+Wire Wire Line
+	14050 1650 14050 1600
+Wire Wire Line
+	14400 850  14400 1450
+$Comp
+L power:GND #PWR083
+U 1 1 5C44F8AF
+P 14050 1250
+F 0 "#PWR083" H 14050 1000 50  0001 C CNN
+F 1 "GND" H 14055 1077 50  0000 C CNN
+F 2 "" H 14050 1250 50  0001 C CNN
+F 3 "" H 14050 1250 50  0001 C CNN
+	1    14050 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14050 1300 14050 1250
+Wire Wire Line
+	13050 1950 13050 2250
+Wire Wire Line
+	13050 2250 13450 2250
+Connection ~ 13450 2250
+$Comp
+L Device:CP C15
+U 1 1 5C44F8B9
+P 14200 2250
+F 0 "C15" H 14318 2296 50  0000 L CNN
+F 1 "6.8nF" H 14318 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 14238 2100 50  0001 C CNN
+F 3 "~" H 14200 2250 50  0001 C CNN
+	1    14200 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 1850 14200 1850
+Wire Wire Line
+	14200 1850 14200 2100
+$Comp
+L Device:R R19
+U 1 1 5C44F8C2
+P 14200 2650
+F 0 "R19" H 14270 2696 50  0000 L CNN
+F 1 "6.8k" H 14270 2605 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 14130 2650 50  0001 C CNN
+F 3 "~" H 14200 2650 50  0001 C CNN
+	1    14200 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14200 2500 14200 2400
+$Comp
+L Device:CP C12
+U 1 1 5C44F8CA
+P 11950 2550
+F 0 "C12" H 12068 2596 50  0000 L CNN
+F 1 "47uF" H 12068 2505 50  0000 L CNN
+F 2 "backplane:865090449007" H 11988 2400 50  0001 C CNN
+F 3 "~" H 11950 2550 50  0001 C CNN
+	1    11950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C11
+U 1 1 5C44F8D1
+P 11400 2550
+F 0 "C11" H 11518 2596 50  0000 L CNN
+F 1 "22uF" H 11518 2505 50  0000 L CNN
+F 2 "backplane:865090442004" H 11438 2400 50  0001 C CNN
+F 3 "~" H 11400 2550 50  0001 C CNN
+	1    11400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C13
+U 1 1 5C44F8D8
+P 13050 1250
+F 0 "C13" H 13168 1296 50  0000 L CNN
+F 1 "10nF" H 13168 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 13088 1100 50  0001 C CNN
+F 3 "~" H 13050 1250 50  0001 C CNN
+	1    13050 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13000 1450 13000 1650
+Wire Wire Line
+	13000 1650 13050 1650
+$Comp
+L pspice:INDUCTOR L3
+U 1 1 5C44F8E1
+P 12600 2050
+F 0 "L3" H 12600 2265 50  0000 C CNN
+F 1 "15uH" H 12600 2174 50  0000 C CNN
+F 2 "backplane:6100-150K-RC" H 12600 2050 50  0001 C CNN
+F 3 "~" H 12600 2050 50  0001 C CNN
+	1    12600 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13000 2050 13000 1850
+Wire Wire Line
+	13000 1850 13050 1850
+Wire Wire Line
+	13000 2050 12900 2050
+Wire Wire Line
+	12900 1250 12900 2050
+Connection ~ 12900 2050
+Wire Wire Line
+	12900 2050 12850 2050
+Wire Wire Line
+	13000 1450 13200 1450
+Wire Wire Line
+	13200 1450 13200 1250
+Wire Wire Line
+	11950 2700 11950 3150
+Wire Wire Line
+	11950 3150 12350 3150
+Connection ~ 12350 3150
+Wire Wire Line
+	12350 2450 12350 2050
+Wire Wire Line
+	11950 2400 11950 2050
+Wire Wire Line
+	11950 2050 12350 2050
+Connection ~ 12350 2050
+Wire Wire Line
+	13900 1950 13900 2800
+Wire Wire Line
+	13900 2800 12350 2800
+Connection ~ 12350 2800
+Wire Wire Line
+	11950 2050 11950 1950
+Connection ~ 11950 2050
+Wire Wire Line
+	11400 2700 11400 3150
+Wire Wire Line
+	11400 3150 11950 3150
+Connection ~ 11950 3150
+Wire Wire Line
+	11400 2400 11400 1700
+Wire Wire Line
+	12350 1750 12350 1700
+Wire Wire Line
+	12350 1700 12150 1700
+Connection ~ 11400 1700
+Wire Wire Line
+	11400 1700 11400 1650
+Wire Wire Line
+	14200 2800 14200 3150
+Wire Wire Line
+	14200 3150 12350 3150
+Wire Wire Line
+	12350 1750 13050 1750
+Wire Wire Line
+	12150 850  12150 1700
+Wire Wire Line
+	12150 850  14400 850 
+Connection ~ 12150 1700
+Wire Wire Line
+	12150 1700 11400 1700
+$Comp
+L power:+15V #PWR079
+U 1 1 5C44F911
+P 11400 1650
+F 0 "#PWR079" H 11400 1500 50  0001 C CNN
+F 1 "+15V" H 11415 1823 50  0000 C CNN
+F 2 "" H 11400 1650 50  0001 C CNN
+F 3 "" H 11400 1650 50  0001 C CNN
+	1    11400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR080
+U 1 1 5C4957A8
+P 11950 1950
+F 0 "#PWR080" H 11950 1800 50  0001 C CNN
+F 1 "+12V" H 11965 2123 50  0000 C CNN
+F 2 "" H 11950 1950 50  0001 C CNN
+F 3 "" H 11950 1950 50  0001 C CNN
+	1    11950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR078
+U 1 1 5C55185C
+P 1950 5300
+F 0 "#PWR078" H 1950 5150 50  0001 C CNN
+F 1 "+12V" H 1965 5473 50  0000 C CNN
+F 2 "" H 1950 5300 50  0001 C CNN
+F 3 "" H 1950 5300 50  0001 C CNN
+	1    1950 5300
+	-1   0    0    1   
+$EndComp
+Text GLabel 12550 6750 0    50   Input ~ 0
+header1Gpio1
+Text GLabel 13150 6750 2    50   Input ~ 0
+header1Gpio2
+Text GLabel 12550 6850 0    50   Input ~ 0
+header1Gpio3
+Text GLabel 13150 6850 2    50   Input ~ 0
+header1Gpio4
+Text GLabel 12550 6950 0    50   Input ~ 0
+header1Gpio5
+Text GLabel 13150 6950 2    50   Input ~ 0
+header1Gpio6
+Text GLabel 12550 7050 0    50   Input ~ 0
+header2Gpio1
+Text GLabel 13150 7050 2    50   Input ~ 0
+header2Gpio2
+Text GLabel 12550 7150 0    50   Input ~ 0
+header2Gpio3
+Text GLabel 13150 7150 2    50   Input ~ 0
+header2Gpio4
+Text GLabel 12550 7250 0    50   Input ~ 0
+header2Gpio5
+Text GLabel 13150 7250 2    50   Input ~ 0
+header2Gpio6
+Text GLabel 12550 7350 0    50   Input ~ 0
+header3Gpio1
+Text GLabel 13150 7350 2    50   Input ~ 0
+header3Gpio2
+Text GLabel 12550 7450 0    50   Input ~ 0
+header3Gpio3
+Text GLabel 13150 7450 2    50   Input ~ 0
+header3Gpio4
+Text GLabel 12550 7550 0    50   Input ~ 0
+header3Gpio5
+Text GLabel 13150 7550 2    50   Input ~ 0
+header3Gpio6
+Text GLabel 12550 7650 0    50   Input ~ 0
+header4Gpio1
+Text GLabel 12550 7750 0    50   Input ~ 0
+header4Gpio3
+Text GLabel 12550 7850 0    50   Input ~ 0
+header4Gpio5
+Text GLabel 12550 7950 0    50   Input ~ 0
+header5Gpio1
+Text GLabel 12550 8050 0    50   Input ~ 0
+header5Gpio3
+Text GLabel 12550 8150 0    50   Input ~ 0
+header5Gpio5
+Text GLabel 12550 8250 0    50   Input ~ 0
+header6Gpio1
+Text GLabel 12550 8350 0    50   Input ~ 0
+header6Gpio3
+Text GLabel 12550 8450 0    50   Input ~ 0
+header6Gpio5
+Text GLabel 12550 8550 0    50   Input ~ 0
+header7Gpio1
+Text GLabel 12550 8650 0    50   Input ~ 0
+header7Gpio3
+Text GLabel 12550 8750 0    50   Input ~ 0
+header7Gpio5
+Text GLabel 12550 8850 0    50   Input ~ 0
+header8Gpio1
+Text GLabel 12550 8950 0    50   Input ~ 0
+header8Gpio3
+Text GLabel 12550 9050 0    50   Input ~ 0
+header8Gpio5
+Text GLabel 12550 9150 0    50   Input ~ 0
+header9Gpio1
+Text GLabel 12550 9250 0    50   Input ~ 0
+header9Gpio3
+Text GLabel 12550 9350 0    50   Input ~ 0
+header9Gpio5
+Text GLabel 13150 7650 2    50   Input ~ 0
+header4Gpio2
+Text GLabel 13150 7750 2    50   Input ~ 0
+header4Gpio4
+Text GLabel 13150 7850 2    50   Input ~ 0
+header4Gpio6
+Text GLabel 13150 7950 2    50   Input ~ 0
+header5Gpio2
+Text GLabel 13150 8050 2    50   Input ~ 0
+header5Gpio4
+Text GLabel 13150 8150 2    50   Input ~ 0
+header5Gpio6
+Text GLabel 13150 8250 2    50   Input ~ 0
+header6Gpio2
+Text GLabel 13150 8350 2    50   Input ~ 0
+header6Gpio4
+Text GLabel 13150 8450 2    50   Input ~ 0
+header6Gpio6
+Text GLabel 13150 8550 2    50   Input ~ 0
+header7Gpio2
+Text GLabel 13150 8650 2    50   Input ~ 0
+header7Gpio4
+Text GLabel 13150 8750 2    50   Input ~ 0
+header7Gpio6
+Text GLabel 13150 8850 2    50   Input ~ 0
+header8Gpio2
+Text GLabel 13150 8950 2    50   Input ~ 0
+header8Gpio4
+Text GLabel 13150 9050 2    50   Input ~ 0
+header8Gpio6
+Text GLabel 13150 9150 2    50   Input ~ 0
+header9Gpio2
+Text GLabel 13150 9250 2    50   Input ~ 0
+header9Gpio4
+Text GLabel 13150 9350 2    50   Input ~ 0
+header9Gpio6
+Wire Wire Line
+	12550 6750 12650 6750
+Wire Wire Line
+	12550 6850 12650 6850
+Wire Wire Line
+	12550 6950 12650 6950
+Wire Wire Line
+	12550 7050 12650 7050
+Wire Wire Line
+	12550 7150 12650 7150
+Wire Wire Line
+	12550 7250 12650 7250
+Wire Wire Line
+	12650 7350 12550 7350
+Wire Wire Line
+	12550 7450 12650 7450
+Wire Wire Line
+	12650 7550 12550 7550
+Wire Wire Line
+	12550 7650 12650 7650
+Wire Wire Line
+	12650 7750 12550 7750
+Wire Wire Line
+	12550 7850 12650 7850
+Wire Wire Line
+	12650 7950 12550 7950
+Wire Wire Line
+	12550 8050 12650 8050
+Wire Wire Line
+	12650 8150 12550 8150
+Wire Wire Line
+	12550 8250 12650 8250
+Wire Wire Line
+	12650 8350 12550 8350
+Wire Wire Line
+	12550 8450 12650 8450
+Wire Wire Line
+	12650 8550 12550 8550
+Wire Wire Line
+	12550 8650 12650 8650
+Wire Wire Line
+	12650 8750 12550 8750
+Wire Wire Line
+	12550 8850 12650 8850
+Wire Wire Line
+	12650 8950 12550 8950
+Wire Wire Line
+	12550 9050 12650 9050
+Wire Wire Line
+	12550 9150 12650 9150
+Wire Wire Line
+	12550 9250 12650 9250
+Wire Wire Line
+	12550 9350 12650 9350
+Wire Wire Line
+	13150 6750 13050 6750
+Wire Wire Line
+	13150 6850 13050 6850
+Wire Wire Line
+	13150 6950 13050 6950
+Wire Wire Line
+	13150 7050 13050 7050
+Wire Wire Line
+	13150 7150 13050 7150
+Wire Wire Line
+	13150 7250 13050 7250
+Wire Wire Line
+	13150 7350 13050 7350
+Wire Wire Line
+	13150 7450 13050 7450
+Wire Wire Line
+	13150 7550 13050 7550
+Wire Wire Line
+	13150 7650 13050 7650
+Wire Wire Line
+	13150 7750 13050 7750
+Wire Wire Line
+	13150 7850 13050 7850
+Wire Wire Line
+	13150 7950 13050 7950
+Wire Wire Line
+	13150 8050 13050 8050
+Wire Wire Line
+	13150 8150 13050 8150
+Wire Wire Line
+	13150 8250 13050 8250
+Wire Wire Line
+	13150 8350 13050 8350
+Wire Wire Line
+	13150 8450 13050 8450
+Wire Wire Line
+	13050 8550 13150 8550
+Wire Wire Line
+	13150 8650 13050 8650
+Wire Wire Line
+	13150 8750 13050 8750
+Wire Wire Line
+	13150 8850 13050 8850
+Wire Wire Line
+	13150 8950 13050 8950
+Wire Wire Line
+	13150 9050 13050 9050
+Wire Wire Line
+	13050 9150 13150 9150
+Wire Wire Line
+	13150 9250 13050 9250
+Wire Wire Line
+	13050 9350 13150 9350
 $EndSCHEMATC
