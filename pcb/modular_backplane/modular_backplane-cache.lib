@@ -205,6 +205,19 @@ X I 9 -700 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# backplane_Library_mountingHole
+#
+DEF backplane_Library_mountingHole U 0 40 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "backplane_Library_mountingHole" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 100 50 -50 0 1 0 N
+X A 1 0 -150 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # modular_backplane-rescue_PJ-037A-backplane_Library-backplane-rescue
 #
 DEF modular_backplane-rescue_PJ-037A-backplane_Library-backplane-rescue U 0 40 Y Y 1 F N
