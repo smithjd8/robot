@@ -234,8 +234,6 @@ F 3 "~" H 6700 1600 50  0001 C CNN
 	1    6700 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6700 1750 6200 1750
 $Comp
 L power:+5V #PWR012
 U 1 1 5C42B480
@@ -312,8 +310,6 @@ Wire Wire Line
 	6200 1650 6350 1650
 Wire Wire Line
 	6350 1650 6350 1600
-Wire Wire Line
-	6700 850  6700 1450
 $Comp
 L power:GND #PWR023
 U 1 1 5C5205B0
@@ -452,8 +448,6 @@ Wire Wire Line
 	3700 2400 3700 1700
 Wire Wire Line
 	4650 1750 4650 1700
-Wire Wire Line
-	4650 1700 4450 1700
 Connection ~ 3700 1700
 Wire Wire Line
 	3700 1700 3700 1650
@@ -463,13 +457,6 @@ Wire Wire Line
 	6500 3150 4650 3150
 Wire Wire Line
 	4650 1750 5350 1750
-Wire Wire Line
-	4450 850  4450 1700
-Wire Wire Line
-	4450 850  6700 850 
-Connection ~ 4450 1700
-Wire Wire Line
-	4450 1700 3700 1700
 $Comp
 L backplane_Library:AP6503SP-13 rail3v1
 U 1 1 5CA8F96A
@@ -492,8 +479,6 @@ F 3 "~" H 10600 1600 50  0001 C CNN
 	1    10600 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10600 1750 10100 1750
 $Comp
 L Device:R R12
 U 1 1 5CA8F980
@@ -559,8 +544,6 @@ Wire Wire Line
 	10100 1650 10250 1650
 Wire Wire Line
 	10250 1650 10250 1600
-Wire Wire Line
-	10600 850  10600 1450
 $Comp
 L power:GND #PWR039
 U 1 1 5CA8F9A7
@@ -699,8 +682,6 @@ Wire Wire Line
 	7600 2400 7600 1700
 Wire Wire Line
 	8550 1750 8550 1700
-Wire Wire Line
-	8550 1700 8350 1700
 Connection ~ 7600 1700
 Wire Wire Line
 	7600 1700 7600 1650
@@ -710,13 +691,6 @@ Wire Wire Line
 	10400 3150 8550 3150
 Wire Wire Line
 	8550 1750 9250 1750
-Wire Wire Line
-	8350 850  8350 1700
-Wire Wire Line
-	8350 850  10600 850 
-Connection ~ 8350 1700
-Wire Wire Line
-	8350 1700 7600 1700
 $Comp
 L power:+3.3V #PWR030
 U 1 1 5CADC1A5
@@ -729,10 +703,10 @@ F 3 "" H 8150 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L backplane_Library:DMP3028LK3-13 U1
+L backplane_Library:DMP3028LK3-13 ReversePolarityFet1
 U 1 1 5C705B5E
 P 1150 1150
-F 0 "U1" H 1278 1165 50  0000 L CNN
+F 0 "ReversePolarityFet1" H 1278 1165 50  0000 L CNN
 F 1 "DMP3028LK3-13" H 1278 1074 50  0000 L CNN
 F 2 "backplane:DMP3028LK3-13" H 1150 1150 50  0001 C CNN
 F 3 "" H 1150 1150 50  0001 C CNN
@@ -740,10 +714,10 @@ F 3 "" H 1150 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L backplane_Library:DMP3028LK3-13 U2
+L backplane_Library:DMP3028LK3-13 ReversePolarityFet2
 U 1 1 5C705F48
 P 1150 1900
-F 0 "U2" H 1278 1915 50  0000 L CNN
+F 0 "ReversePolarityFet2" H 1278 1915 50  0000 L CNN
 F 1 "DMP3028LK3-13" H 1278 1824 50  0000 L CNN
 F 2 "backplane:DMP3028LK3-13" H 1150 1900 50  0001 C CNN
 F 3 "" H 1150 1900 50  0001 C CNN
@@ -803,10 +777,10 @@ power connetors to various computers/fpgas
 Text Notes 4450 750  0    50   ~ 0
 buck converters
 $Comp
-L backplane_Library:NTD4969NT4G U4
+L backplane_Library:NTD4969NT4G MonitorFet1
 U 1 1 5C8C8BB6
 P 2350 9700
-F 0 "U4" H 2528 9965 50  0000 L CNN
+F 0 "MonitorFet1" H 2528 9965 50  0000 L CNN
 F 1 "NTD4969NT4G" H 2528 9874 50  0000 L CNN
 F 2 "backplane:NTD4969NT4G" H 2350 9700 50  0001 C CNN
 F 3 "" H 2350 9700 50  0001 C CNN
@@ -903,10 +877,10 @@ Connection ~ 2350 10150
 Text Notes 900  8800 0    50   ~ 0
 Battery monitor circuitry. Mcu switches the gate on and voltage can be monitored via the voltage divider. The divider was chosen such that 3.3v appears when the lipos are fully charged(17v). 
 $Comp
-L backplane_Library:PREC002SAAN-RC monitorPins1
+L backplane_Library:PREC002SAAN-RC LipoMonitor1
 U 1 1 5C718C1D
 P 1300 9550
-F 0 "monitorPins1" H 1250 10000 50  0000 L CNN
+F 0 "LipoMonitor1" H 1250 10000 50  0000 L CNN
 F 1 "PREC002SAAN-RC" H 1000 9900 50  0000 L CNN
 F 2 "backplane:PREC002SAAN-RC" H 1300 9550 50  0001 C CNN
 F 3 "" H 1300 9550 50  0001 C CNN
@@ -964,10 +938,10 @@ F 3 "" H 7600 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L backplane_Library:PREC002SAAN-RC i2cPins1
+L backplane_Library:PREC002SAAN-RC I2C1
 U 1 1 5C4596BE
 P 1250 7600
-F 0 "i2cPins1" H 1150 8000 50  0000 L CNN
+F 0 "I2C1" H 1150 8000 50  0000 L CNN
 F 1 "PREC002SAAN-RC" H 900 7900 50  0000 L CNN
 F 2 "backplane:PREC002SAAN-RC" H 1250 7600 50  0001 C CNN
 F 3 "" H 1250 7600 50  0001 C CNN
@@ -1071,10 +1045,10 @@ $EndComp
 Text GLabel 4900 4800 3    50   Input ~ 0
 scl
 $Comp
-L backplane_Library:PPPC072LJBN-RC card3
+L backplane_Library:PPPC072LJBN-RC Card2
 U 1 1 5C63214A
 P 4350 4450
-F 0 "card3" H 4778 4396 50  0000 L CNN
+F 0 "Card2" H 4778 4396 50  0000 L CNN
 F 1 "PPPC072LJBN-RC" H 4778 4305 50  0000 L CNN
 F 2 "backplane:PPPC072LJBN-RC" H 4350 4700 50  0001 C CNN
 F 3 "" H 4350 4700 50  0001 C CNN
@@ -1217,10 +1191,10 @@ $EndComp
 Text GLabel 6550 4800 3    50   Input ~ 0
 scl
 $Comp
-L backplane_Library:PPPC072LJBN-RC card5
+L backplane_Library:PPPC072LJBN-RC Card4
 U 1 1 5C63FDF4
 P 5900 4500
-F 0 "card5" H 6328 4446 50  0000 L CNN
+F 0 "Card4" H 6328 4446 50  0000 L CNN
 F 1 "PPPC072LJBN-RC" H 6328 4355 50  0000 L CNN
 F 2 "backplane:PPPC072LJBN-RC" H 5900 4750 50  0001 C CNN
 F 3 "" H 5900 4750 50  0001 C CNN
@@ -1356,10 +1330,10 @@ $EndComp
 Text GLabel 8150 4800 3    50   Input ~ 0
 scl
 $Comp
-L backplane_Library:PPPC072LJBN-RC card7
+L backplane_Library:PPPC072LJBN-RC Card8
 U 1 1 5C651E2B
 P 7500 4500
-F 0 "card7" H 7928 4446 50  0000 L CNN
+F 0 "Card8" H 7928 4446 50  0000 L CNN
 F 1 "PPPC072LJBN-RC" H 7928 4355 50  0000 L CNN
 F 2 "backplane:PPPC072LJBN-RC" H 7500 4750 50  0001 C CNN
 F 3 "" H 7500 4750 50  0001 C CNN
@@ -1506,10 +1480,10 @@ $EndComp
 Text GLabel 9800 4800 3    50   Input ~ 0
 scl
 $Comp
-L backplane_Library:PPPC072LJBN-RC card9
+L backplane_Library:PPPC072LJBN-RC Card6
 U 1 1 5C66862C
 P 9150 4500
-F 0 "card9" H 9578 4446 50  0000 L CNN
+F 0 "Card6" H 9578 4446 50  0000 L CNN
 F 1 "PPPC072LJBN-RC" H 9578 4355 50  0000 L CNN
 F 2 "backplane:PPPC072LJBN-RC" H 9150 4750 50  0001 C CNN
 F 3 "" H 9150 4750 50  0001 C CNN
@@ -1656,10 +1630,10 @@ $EndComp
 Text GLabel 5000 7100 3    50   Input ~ 0
 scl
 $Comp
-L backplane_Library:PPPC072LJBN-RC card2
+L backplane_Library:PPPC072LJBN-RC Card1
 U 1 1 5C683A15
 P 4350 6800
-F 0 "card2" H 4778 6746 50  0000 L CNN
+F 0 "Card1" H 4778 6746 50  0000 L CNN
 F 1 "PPPC072LJBN-RC" H 4778 6655 50  0000 L CNN
 F 2 "backplane:PPPC072LJBN-RC" H 4350 7050 50  0001 C CNN
 F 3 "" H 4350 7050 50  0001 C CNN
@@ -1806,10 +1780,10 @@ $EndComp
 Text GLabel 6600 7150 3    50   Input ~ 0
 scl
 $Comp
-L backplane_Library:PPPC072LJBN-RC card4
+L backplane_Library:PPPC072LJBN-RC Card3
 U 1 1 5C6A7BEC
 P 5950 6850
-F 0 "card4" H 6378 6796 50  0000 L CNN
+F 0 "Card3" H 6378 6796 50  0000 L CNN
 F 1 "PPPC072LJBN-RC" H 6378 6705 50  0000 L CNN
 F 2 "backplane:PPPC072LJBN-RC" H 5950 7100 50  0001 C CNN
 F 3 "" H 5950 7100 50  0001 C CNN
@@ -1956,10 +1930,10 @@ $EndComp
 Text GLabel 8200 7150 3    50   Input ~ 0
 scl
 $Comp
-L backplane_Library:PPPC072LJBN-RC card6
+L backplane_Library:PPPC072LJBN-RC Card7
 U 1 1 5C6D4514
 P 7550 6850
-F 0 "card6" H 7978 6796 50  0000 L CNN
+F 0 "Card7" H 7978 6796 50  0000 L CNN
 F 1 "PPPC072LJBN-RC" H 7978 6705 50  0000 L CNN
 F 2 "backplane:PPPC072LJBN-RC" H 7550 7100 50  0001 C CNN
 F 3 "" H 7550 7100 50  0001 C CNN
@@ -2106,10 +2080,10 @@ $EndComp
 Text GLabel 9850 7200 3    50   Input ~ 0
 scl
 $Comp
-L backplane_Library:PPPC072LJBN-RC card8
+L backplane_Library:PPPC072LJBN-RC Card5
 U 1 1 5C709295
 P 9200 6900
-F 0 "card8" H 9628 6846 50  0000 L CNN
+F 0 "Card5" H 9628 6846 50  0000 L CNN
 F 1 "PPPC072LJBN-RC" H 9628 6755 50  0000 L CNN
 F 2 "backplane:PPPC072LJBN-RC" H 9200 7150 50  0001 C CNN
 F 3 "" H 9200 7150 50  0001 C CNN
@@ -2253,8 +2227,6 @@ F 3 "~" H 14400 1600 50  0001 C CNN
 	1    14400 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14400 1750 13900 1750
 $Comp
 L Device:R R18
 U 1 1 5C44F888
@@ -2320,8 +2292,6 @@ Wire Wire Line
 	13900 1650 14050 1650
 Wire Wire Line
 	14050 1650 14050 1600
-Wire Wire Line
-	14400 850  14400 1450
 $Comp
 L power:GND #PWR083
 U 1 1 5C44F8AF
@@ -2460,8 +2430,6 @@ Wire Wire Line
 	11400 2400 11400 1700
 Wire Wire Line
 	12350 1750 12350 1700
-Wire Wire Line
-	12350 1700 12150 1700
 Connection ~ 11400 1700
 Wire Wire Line
 	11400 1700 11400 1650
@@ -2471,13 +2439,6 @@ Wire Wire Line
 	14200 3150 12350 3150
 Wire Wire Line
 	12350 1750 13050 1750
-Wire Wire Line
-	12150 850  12150 1700
-Wire Wire Line
-	12150 850  14400 850 
-Connection ~ 12150 1700
-Wire Wire Line
-	12150 1700 11400 1700
 $Comp
 L power:+15V #PWR079
 U 1 1 5C44F911
@@ -2719,10 +2680,10 @@ header6Gpio1
 Text GLabel 13150 7050 2    50   Input ~ 0
 header6Gpio2
 $Comp
-L backplane_Library:PREC024DAAN-RC U5
+L backplane_Library:PREC024DAAN-RC CentralHub1
 U 1 1 5D038BC4
 P 12850 8150
-F 0 "U5" V 11485 8150 50  0000 C CNN
+F 0 "CentralHub1" V 11485 8150 50  0000 C CNN
 F 1 "PREC024DAAN-RC" V 11576 8150 50  0000 C CNN
 F 2 "backplane:PREC024DAAN-RC" H 12850 8350 50  0001 C CNN
 F 3 "" H 12850 8350 50  0001 C CNN
@@ -2896,6 +2857,86 @@ F 1 "GND" H 11855 4627 50  0000 C CNN
 F 2 "" H 11850 4800 50  0001 C CNN
 F 3 "" H 11850 4800 50  0001 C CNN
 	1    11850 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11400 1700 12350 1700
+Wire Wire Line
+	13900 1750 14400 1750
+Wire Wire Line
+	14400 1450 14400 1350
+Wire Wire Line
+	10100 1750 10400 1750
+Wire Wire Line
+	10400 1750 10400 1400
+$Comp
+L Device:R R7
+U 1 1 5C6814FA
+P 10600 1150
+F 0 "R7" H 10670 1196 50  0000 L CNN
+F 1 "200K" H 10670 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 10530 1150 50  0001 C CNN
+F 3 "~" H 10600 1150 50  0001 C CNN
+	1    10600 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 1900 10600 1750
+$Comp
+L power:GND #PWR020
+U 1 1 5C63D14F
+P 10600 1900
+F 0 "#PWR020" H 10600 1650 50  0001 C CNN
+F 1 "GND" H 10605 1727 50  0000 C CNN
+F 2 "" H 10600 1900 50  0001 C CNN
+F 3 "" H 10600 1900 50  0001 C CNN
+	1    10600 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 1400 10600 1450
+Wire Wire Line
+	10600 1300 10600 1400
+Connection ~ 10600 1400
+Wire Wire Line
+	10400 1400 10600 1400
+Wire Wire Line
+	8350 1700 7600 1700
+Wire Wire Line
+	8550 1700 8350 1700
+Connection ~ 8350 1700
+Wire Wire Line
+	8350 850  8350 1700
+Wire Wire Line
+	8350 850  10600 850 
+Wire Wire Line
+	10600 1000 10600 850 
+Wire Wire Line
+	3700 1700 4650 1700
+Wire Wire Line
+	6200 1750 6700 1750
+$Comp
+L power:+3.3V #PWR0105
+U 1 1 5C5F4E9C
+P 6700 1350
+F 0 "#PWR0105" H 6700 1200 50  0001 C CNN
+F 1 "+3.3V" H 6715 1523 50  0000 C CNN
+F 2 "" H 6700 1350 50  0001 C CNN
+F 3 "" H 6700 1350 50  0001 C CNN
+	1    6700 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 1450 6700 1350
+$Comp
+L power:+3.3V #PWR0106
+U 1 1 5C638002
+P 14400 1350
+F 0 "#PWR0106" H 14400 1200 50  0001 C CNN
+F 1 "+3.3V" H 14415 1523 50  0000 C CNN
+F 2 "" H 14400 1350 50  0001 C CNN
+F 3 "" H 14400 1350 50  0001 C CNN
+	1    14400 1350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
